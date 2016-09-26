@@ -43,6 +43,9 @@ background-color: #fff;
 
 /*Id Selectors***********************/
 
-
+#splash-photo {
+height: 551px;
+width: 1401px;
+}
 
 /*Media Queries**********************/
