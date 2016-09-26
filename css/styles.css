@@ -46,6 +46,10 @@ background-color: #fff;
 #splash-photo {
 height: 551px;
 width: 1401px;
+z-index: -1;
+position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 /*Media Queries**********************/
