@@ -1,9 +1,44 @@
 /*Universal Selectors****************/
 
+body {
+background-color: #1CD6C7;
+}
 
+li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-size: 24px;
+}
 
 /*Class Selectors********************/
+.container {
+background-color: #fff;
+}
 
+.navbar ul {
+
+  list-style-type: none;
+   margin: 0;
+   padding-left: 200px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: justify;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #16ab9f;
+}
 
 
 /*Id Selectors***********************/
