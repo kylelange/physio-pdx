@@ -80,7 +80,11 @@ z-index: 1;
   text-decoration: none;
 }
 
-/*Id Selectors***********************/
+.splash-intro-text {
+  margin-top: 300px;
+  text-align: center;
+  z-index: 0;
+}
 
 .splash-photo {
   display: block;
@@ -100,15 +104,13 @@ z-index: 1;
   z-index: -1;
 }
 
+/*Id Selectors***********************/
+
+
 #nav-logo {
   height: 75px;
   width: 220px;
 }
 
-#splash-intro-text {
-  margin-top: 300px;
-  text-align: center;
-  z-index: 0;
-}
 
 /*Media Queries**********************/
