@@ -20,6 +20,12 @@ h1 {
   color: #1CD6C7;
 }
 
+p {
+font-family: GillSans;
+font-size: 18px;
+color: #4A4A4A;
+}
+
 /*Class Selectors********************/
 .container {
 
@@ -102,6 +108,18 @@ z-index: 1;
   position: absolute;
   width: 100%;
   z-index: -1;
+}
+
+.row2 {
+  margin-top: 140px;
+  background-color: #fff;
+}
+
+.row2 p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 580px;
+  padding: 50px
 }
 
 /*Id Selectors***********************/
