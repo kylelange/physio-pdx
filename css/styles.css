@@ -177,7 +177,7 @@ z-index: 1;
   letter-spacing: 0.5px;
 }
 
-.row3 {
+.row3, .col-md-6, .col-md-3 {
   background-color: #332D2D;
   padding: 35px;
 }
