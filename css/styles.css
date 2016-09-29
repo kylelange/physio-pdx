@@ -45,7 +45,7 @@ justify-content: center;
 
 .navbar li {
   float: left;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 .navbar li a {
@@ -113,13 +113,38 @@ z-index: 1;
 .row2 {
   margin-top: 140px;
   background-color: #fff;
+  padding: 50px;
 }
 
 .row2 p {
   margin-left: auto;
   margin-right: auto;
-  width: 580px;
-  padding: 50px
+  width: 480px;
+  /*need flexbox!*/
+  padding-bottom: 50px;
+}
+
+.services {
+  font-family: 'GillSans';
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  background: #1CD6C7;
+  border: 3px solid #332D2D;
+  border-radius: 14px;
+  width: 210px;
+  height: 60px;
+  padding-bottom: 50px;
+}
+
+.services a{
+  color: #fff;
+  text-align: center;
+}
+
+.services a:hover{
+  color: #16ab9f;
+  text-decoration: none;
 }
 
 /*Id Selectors***********************/
