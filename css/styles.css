@@ -21,7 +21,7 @@ h1 {
 }
 
 p {
-font-family: GillSans;
+font-family: 'GillSans', sans-serif;
 font-size: 18px;
 color: #4A4A4A;
 }
@@ -63,7 +63,7 @@ justify-content: center;
 }
 
 .appointment {
-font-family: 'GillSans';
+font-family: 'GillSans', sans-serif;
 font-size: 39px;
 color: #FFFFFF;
 letter-spacing: 0.4px;
@@ -101,7 +101,6 @@ z-index: 1;
 }
 
 .filter {
-  /*border: 20px solid tomato;*/
   background-color: #2f2f2f;
   filter: opacity(50%);
   height: 753.734px;
@@ -125,15 +124,15 @@ z-index: 1;
 }
 
 .services {
-  font-family: 'GillSans';
-  font-size: 36px;
+  font-family: 'GillSans', sans-serif;
+  font-size: 32px;
   color: #FFFFFF;
   letter-spacing: 0.5px;
   background: #1CD6C7;
   border: 3px solid #332D2D;
   border-radius: 14px;
-  width: 210px;
-  height: 60px;
+  width: 200px;
+  height: 50px;
   padding-bottom: 50px;
 }
 
@@ -145,6 +144,13 @@ z-index: 1;
 .services a:hover{
   color: #16ab9f;
   text-decoration: none;
+}
+
+.carousel-caption p {
+  font-style: 'Gill Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.5px;
 }
 
 /*Id Selectors***********************/
