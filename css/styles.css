@@ -9,6 +9,10 @@ li {
   font-size: 24px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 @fontface {
   font-family: 'capsuula'
   src: url(../fonts/Capsuula.ttf);
@@ -59,7 +63,6 @@ justify-content: center;
 
 .navbar ul {
    background-color: rgba(255, 255, 255, 0.2);
-   list-style-type: none;
    width: 100%;
    position: absolute;
 }
@@ -176,11 +179,38 @@ z-index: 1;
 
 .row3 {
   background-color: #332D2D;
-  padding: 50px;
+  padding: 35px;
 }
 
-.form-control {
-  
+.row3 li {
+  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0.31px;
+  padding: 15px;
+}
+
+.row3 a{
+  color: #fff;
+  text-align: center;
+}
+
+.row3 a:hover{
+  color: #16ab9f;
+  text-decoration: none;
+}
+
+.submit {
+  /* Submit Button: */
+background: #1CD6C7;
+border: 3px solid #FFFFFF;
+border-radius: 14px;
+font-family: 'GillSans', sans-serif;
+font-size: 32px;
+color: #FFFFFF;
+letter-spacing: 0.5px;
+width: 220px;
+margin-top: 30px;
 }
 
 /*Id Selectors***********************/
@@ -191,5 +221,10 @@ z-index: 1;
   width: 220px;
 }
 
+#comment-input {
+  padding-bottom: 99px;
+  padding-top: 15px;
+  width: 100%;
+}
 
 /*Media Queries**********************/
