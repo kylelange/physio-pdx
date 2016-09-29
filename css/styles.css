@@ -56,14 +56,15 @@ input {
 
 }
 
-.navbar {
+/*.navbar {
 display: flex;
 justify-content: center;
-}
+}*/
 
 .navbar ul {
    background-color: rgba(255, 255, 255, 0.2);
    width: 100%;
+   z-index: 1;
    position: absolute;
 }
 
@@ -122,6 +123,7 @@ z-index: 1;
   width: 100%;
   z-index: -2;
   position: absolute;
+
 }
 
 .filter {
@@ -177,7 +179,7 @@ z-index: 1;
   letter-spacing: 0.5px;
 }
 
-.row3, .col-md-6, .col-md-3 {
+.row3 {
   background-color: #332D2D;
   padding: 35px;
 }
@@ -228,3 +230,10 @@ margin-top: 30px;
 }
 
 /*Media Queries**********************/
+@media only screen and (max-width:800px) {
+
+}
+
+@media only screen and (max-width:414px) {
+
+}
