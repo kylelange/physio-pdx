@@ -71,10 +71,11 @@ justify-content: center;
 .navbar li {
   float: left;
   padding-left: 15px;
+  font-size: 2em
+
 }
 
-.navbar li a {
-  font-size: 1.2em;
+.navbar a {
   color: white;
   letter-spacing: 0.4px;
   display: block;
@@ -172,6 +173,11 @@ z-index: 1;
   text-decoration: none;
 }
 
+.carousel-caption {
+    top: 85% !important;
+    transform: translateY(-15%);
+}
+
 .carousel-caption p {
   font-style: 'Gill Sans', sans-serif;
   color: #fff;
@@ -215,6 +221,10 @@ width: 220px;
 margin-top: 30px;
 }
 
+  /*col-md-3 is in row 3/bottom nav bar*/
+.col-md-3 h2 {
+  text-align: center;
+}
 /*Id Selectors***********************/
 
 
@@ -230,10 +240,75 @@ margin-top: 30px;
 }
 
 /*Media Queries**********************/
-@media only screen and (max-width:800px) {
+/*smaller desktops*/
+@media only screen and (max-width:1200px) {
+  .navbar li {
+    font-size: 1.5em;
+    padding-left: 8px;
+  }
+
+  .navbar a {
+    letter-spacing: 0.7px
+    padding-top: 20px;
+  }
+
+  .filter {
+    height: 642.45px;
+    width: 970px;
+  }
+  .splash-photo {
+    width: 970px;
+  }
+
+  .splash-intro-text {
+    margin-top: 235px;
+  }
+
+  .row2 {
+    margin-top: 80px;
+  }
+
+  .carousel-caption {
+      top: 80% !important;
+      transform: translateY(-20%);
+  }
+
+  .carousel-caption p {
+    font-size: 16px;
+    letter-spacing: 0.7px;
+  }
+
+  #nav-logo {
+    height: 70px;
+    width: 205px;
+  }
+}
+
+/*tablet*/
+@media only screen and (max-width:991px) {
+  .splash-photo {
+    width: 750px;
+  }
+  .filter {
+    height: 496.75px;
+    width: 750px;
+  }
+  .splash-intro-text {
+    margin-top: 175px;
+  }
+
+  .row2 {
+    margin-top: 45px;
+  }
+
+  .appointment {
+    margin-top: 60px;
+  }
+
 
 }
 
+/*mobile*/
 @media only screen and (max-width:414px) {
 
 }
