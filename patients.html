@@ -1,24 +1,93 @@
 <!DOCTYPE html>
-<html>
+  <html>
     <head>
       <meta charset="UTF-8">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <script src="js/jquery-3.1.0.js"></script>
       <script src="js/scripts.js"></script>
-      <title>PhysioPDX</title>
+      <title>Physio-Patients</title>
     </head>
     <body>
       <div class="container">
-        <div class="navbar">
-          <img class="splash-photo" src="img/holding-hands.jpeg" alt="holding hands"/>
-          <div class="filter">
+        <div class="row row0">
+          <div class="row col-lg-12">
+            <img class="splash-photo" src="img/blue-jump.jpg" alt="holding hands"/>
+            <div class="filter">
+            </div>
           </div>
-          <ul>
-            <li><img id="nav-logo" src="img/physioPDX-logo.jpg" alt="company logo"></li>
-            <li><a href="index.html">home</a></li>
-            <li><a href="scheduling.html">scheduling</a></li>
-            <li><a href="patients.html">patients</a></li>
-            <li><a href="about-us.html">about </a></li>
-          </ul>
         </div>
+        <div class="row">
+          <div class="navbar">
+            <ul>
+              <li><img id="nav-logo" src="img/physioPDX-logo.jpg" alt="company logo"></li>
+              <li><a href="index.html">home</a></li>
+              <li><a href="scheduling.html">scheduling</a></li>
+              <li><a href="patients.html">patients</a></li>
+              <li><a href="about-us.html">about </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row row1">
+          <div class="col-lg-12">
+            <h1 class="splash-intro-text">You talk. We Listen.</h1>
+            <button class="appointment center-block" type="button"><a href="scheduling.html">make an appointment</a></button>
+          </div>
+        </div>
+
+
+        <div class="row row3" style="">
+          <div id="output" class="row">
+<!-- manipulate DOM here to pop-up a message that user info has been sent -->
+          </div>
+          <div class="col-md-6">
+            <h2 id="contact">Talk to us without making an appointment.
+                We’ll tell you how we can help.</h2>
+            <form id="form-comment">
+              <div class="col-md-6">
+                <div class="form-group">
+                <label for="name">name:</label>
+                <input id="name-input" class="form-control" name="fullName" type="text" placeholder="first last" required>
+                </div>
+                <div class="form-group">
+                <label for="email">email:</label>
+                <input id="email-input" class="form-control" name="email" type="text" placeholder="you@email.com" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                <label for="name">comment:</label>
+                <input id="comment-input" class="form-control" name="comment" type="text" placeholder="type a comment here">
+                </div>
+                <button type="submit center-block" class="submit" name="button">submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h2>Navigate</h2>
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="scheduling.html">scheduling</a></li>
+              <li><a href="patients.html">patients</a></li>
+              <li><a href="about-us.html">about </a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <h2>Follow Us</h2>
+            <ul>
+              <li><a href="https://www.facebook.com/">
+                <img src="img/facebook.png" alt="facebook logo"/>
+              </a></li>
+              <li><a href="https://www.instagram.com/?hl=en">
+                <img src="img/instagram.png" alt="instagram logo"/>
+              </a></li>
+              <li><a href="https://twitter.com/?lang=en">
+                <img src="img/twitter.png" alt="twitter logo"/>
+              </a></li>
+            </ul>
+            <h2>&copy 2016.</h2>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
