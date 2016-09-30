@@ -20,11 +20,28 @@ $(document).ready(function(){
     $("#output").append("<h2> Thanks "+newComment.name+", we will be in touch soon.</h2>")
     $("#output").slideDown(1500);
     $("#output").slideUp(1500);
-
   });
 
-// lookup answer on j'ena's files
-  $("#myCarousel").click(function(){
-
+// Carousel activation and indicators
+  $("#myCarousel").carousel();
+  $(".item1").click(function(){
+    $("#myCarousel").carousel(0);
   });
+  $(".item2").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".item3").click(function(){
+    $("#myCarousel").carousel(2);
+  });
+  $(".item4").click(function(){
+    $("#myCarousel").carousel(3);
+  });
+// Carousel Controls
+  $(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+  });
+  $(".right").click(function(){
+    $("#myCarousel").carousel("next");
+  });
+
 });
