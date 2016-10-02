@@ -224,8 +224,57 @@ margin-top: 30px;
 .col-md-3 h2 {
   text-align: center;
 }
-/*Id Selectors***********************/
 
+/*about us page styling*/
+.row2-aboutUS h2 {
+  color: #332D2D;
+}
+
+.row2-aboutUS {
+  margin-top: 140px;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.about-appt {
+font-family: 'GillSans', sans-serif;
+font-size: 39px;
+color: #332D2D;
+letter-spacing: 0.4px;
+border: 3px solid #332D2D;
+border-radius: 14px;
+width: 502px;
+height: 75px;
+background: transparent;
+margin-top: 100px;
+z-index: 1;
+}
+
+.about-appt a{
+  color: #332D2D;
+  text-align: center;
+}
+
+.about-appt a:hover{
+  color: #16ab9f;
+  text-decoration: none;
+}
+
+.address-text {
+  font-family: 'GillSans', sans-serif;
+  font-size: 18px;
+  color: #332D2D;
+  text-align: center;
+}
+
+.address-text:first-of-type {
+  padding-top: 40px;
+}
+.address-text:last-of-type  {
+  padding-bottom: 90px;
+}
+
+/*Id Selectors***********************/
 
 #nav-logo {
   height: 75px;
@@ -236,6 +285,16 @@ margin-top: 30px;
   padding-bottom: 99px;
   padding-top: 15px;
   width: 100%;
+}
+
+#location-photo {
+  height: 450px;
+  width: 450px;
+}
+
+#sarah-photo {
+  height: 240px;
+  width: 240px;
 }
 
 /*Media Queries**********************/
