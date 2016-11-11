@@ -1,37 +1,41 @@
-# _{Application Name}_
+# _Physio-PDX_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A non-framework design for a small physical-therapy business in Portland, OR. {Nov, 11th 2016.}_
 
-#### By _**{List of contributors}**_
+#### By _**Kyle Lange**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+My client's wants on how the site should look/work were clear:
 
-## Setup/Installation Requirements
+	1. She wanted it to be open and simple.
+	2. She wanted the site to focus on starting a conversation with perspective clients.
+	3. She wanted the site to continue to be useful to her current clients by utilizing a calendar API.
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Her biggest need:
+	1. She would like the site to be open and simple so that she can make updates/changes herself later.  She was not familiar with JS frameworks, but could adjust simple code.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+## Setup/Installation Requirements:
+
+  1. Download this repo using your terminal: _git clone repo-name pasted here_
+
+  2. View the code by drag-and-dropping the file into your [favorite text editor](https://atom.io/)
+
+  3. run/check-out the program by dropping the index/html file from your folder into your web browser
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bugs as of the last commit. Please send an ISSUE on github in the repository if you see something I have not._
 
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+  * HTML5
+  * CSS3
+  * JavaScript with jQuery 3.1
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Kyle Lange_**
