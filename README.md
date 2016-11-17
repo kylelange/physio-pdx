@@ -20,6 +20,8 @@ My client's wants on how the site should look/work were clear:
 Her biggest need:
 	1. She would like the site to be open and simple so that she can make updates/changes herself later.  She was not familiar with JS frameworks, but could adjust simple code.
 
+	The site is still under construction as the client selects API's for calendar/payment.
+
 ## Setup/Installation Requirements:
 
   1. Download this repo using your terminal: _git clone repo-name pasted here_
@@ -30,7 +32,7 @@ Her biggest need:
 
 ## Support and contact details
 
-For questions, concerns, or suggestions please email baronsintrees@gmail.com 
+For questions, concerns, or suggestions please email baronsintrees@gmail.com
 
 
 ## Known Bugs
