@@ -2,7 +2,12 @@
 
 #### _A non-framework design for a small physical-therapy business in Portland, OR. {Nov, 11th 2016.}_
 
+#### See it live [HERE](https://kylelange.github.io/physio-pdx/).
+_
+
 #### By _**Kyle Lange**_
+
+![screenshot](Screen Shot.png)
 
 ## Description
 
@@ -22,6 +27,11 @@ Her biggest need:
   2. View the code by drag-and-dropping the file into your [favorite text editor](https://atom.io/)
 
   3. run/check-out the program by dropping the index/html file from your folder into your web browser
+
+## Support and contact details
+
+For questions, concerns, or suggestions please email baronsintrees@gmail.com 
+
 
 ## Known Bugs
 
