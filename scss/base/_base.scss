@@ -1,8 +1,8 @@
 /*Universal Selectors****************/
-
 body {
-background-color: $background-color;
-@include font-face('capsuula', fonts/capsuula);
+  background-color: $background-color;
+  @include font-face('capsuula', fonts/capsuula);
+  -webkit-font-smooth: antialiased;
 }
 
 li {
@@ -65,18 +65,16 @@ input {
 }
 
 .navbar a {
-  color: $li-a-text;
   letter-spacing: 0.4px;
   display: block;
   text-align: justify;
-  padding: 14px 50px;
   text-decoration: none;
-}
-
-.navbar li a:hover {
-  color: $hover-color;
-  transition: #{$hover};
-  transform: #{$scale};
+  padding: 14px 50px;
+  @include hover-off($li-a-text) {};
+  &:hover, .navbar li {
+    @extend %hover-on;
+    transform: #{$scale};
+  }
 }
 
 /*appt button*/
@@ -95,24 +93,19 @@ z-index: 1;
 }
 
 .appointment a{
-  color: $heroBtn-color;
-  text-align: center;
-  transition: #{$hover};
+  @include hover-off($btn-text) {};
+  &:hover {
+    @extend %hover-on;
+  }
 }
 
-.appointment a:hover{
-  color: $hover-color;
-  text-decoration: none;
-  transition: #{$hover};
-}
-
+/*Headline/main photo*/
 .splash-intro-text {
   margin-top: 300px;
   text-align: center;
   z-index: 0;
 }
 
-/*Headline/main photo*/
 .splash-photo {
   display: block;
   margin: auto;
@@ -160,15 +153,13 @@ z-index: 1;
 }
 
 .services a{
-  color: $li-a-text;
-  text-align: center;
-  transition: #{$hover};
-}
-
-.services a:hover{
-  color: $hover-color;
+  @include hover-off($btn-text) {};
   text-decoration: none;
-  transition: #{$hover};
+  &:hover {
+    @extend %hover-on;
+    background-color: $sec-text-color;
+    text-decoration: none;
+  }
 }
 
 /*Photo carousel*/
@@ -199,15 +190,10 @@ z-index: 1;
 }
 
 .row3 a{
-  color: $li-a-text;
-  text-align: center;
-  transition: #{$hover};
-}
-
-.row3 a:hover{
-  color: $hover-color;
-  text-decoration: none;
-  transition: #{$hover};
+  @include hover-off($btn-text) {};
+  &:hover {
+    @extend %hover-on;
+  }
 }
 
 /*Submit Button*/
@@ -217,11 +203,17 @@ border: 3px solid $btn-text;
 border-radius: 14px;
 font-family: $font-sec;
 font-size: 32px;
-color: $btn-text;
+//color: $btn-text;
 letter-spacing: 0.5px;
 width: 220px;
 margin-top: 30px;
+@include hover-off($btn-text) {};
+  &:hover {
+    @extend %hover-on;
+    background-color: $btn-text;
+  }
 }
+
 
   /*col-md-3 is in row 3/bottom nav bar*/
 .col-md-3 h2 {
@@ -254,15 +246,10 @@ z-index: 1;
 }
 
 .about-appt a{
-  color: $sec-text-color;
-  text-align: center;
-  transition: #{$hover}
-}
-
-.about-appt a:hover{
-  color: $hover-color;
-  text-decoration: none;
-  transition: #{$hover}
+  @include hover-off($sec-text-color) {};
+  &:hover {
+    @extend %hover-on;
+  }
 }
 
 .address-text {

@@ -4,9 +4,15 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.navbar a:hover, .navbar a .navbar li, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover {
+  color: #16ab9f;
+  text-decoration: none;
+  transition: all 400ms ease-in-out; }
+
 /*Universal Selectors****************/
 body {
-  background-color: #1CD6C7; }
+  background-color: #1CD6C7;
+  -webkit-font-smooth: antialiased; }
 @font-face {
   body {
     font-family: "capsuula";
@@ -61,17 +67,16 @@ input {
   transition: all 400ms ease-in-out; }
 
 .navbar a {
-  color: #fff;
   letter-spacing: 0.4px;
   display: block;
   text-align: justify;
+  text-decoration: none;
   padding: 14px 50px;
-  text-decoration: none; }
-
-.navbar li a:hover {
-  color: #16ab9f;
-  transition: all 400ms ease-in-out;
-  transform: scale(1.2); }
+  color: #fff;
+  text-align: center;
+  transition: all 400ms ease-in-out; }
+  .navbar a:hover, .navbar a .navbar li {
+    transform: scale(1.2); }
 
 /*appt button*/
 .appointment {
@@ -92,17 +97,12 @@ input {
   text-align: center;
   transition: all 400ms ease-in-out; }
 
-.appointment a:hover {
-  color: #16ab9f;
-  text-decoration: none;
-  transition: all 400ms ease-in-out; }
-
+/*Headline/main photo*/
 .splash-intro-text {
   margin-top: 300px;
   text-align: center;
   z-index: 0; }
 
-/*Headline/main photo*/
 .splash-photo {
   display: block;
   margin: auto;
@@ -146,12 +146,11 @@ input {
 .services a {
   color: #fff;
   text-align: center;
-  transition: all 400ms ease-in-out; }
-
-.services a:hover {
-  color: #16ab9f;
-  text-decoration: none;
-  transition: all 400ms ease-in-out; }
+  transition: all 400ms ease-in-out;
+  text-decoration: none; }
+  .services a:hover {
+    background-color: #332D2D;
+    text-decoration: none; }
 
 /*Photo carousel*/
 .carousel-caption {
@@ -181,11 +180,6 @@ input {
   text-align: center;
   transition: all 400ms ease-in-out; }
 
-.row3 a:hover {
-  color: #16ab9f;
-  text-decoration: none;
-  transition: all 400ms ease-in-out; }
-
 /*Submit Button*/
 .submit {
   background: #1CD6C7;
@@ -193,10 +187,14 @@ input {
   border-radius: 14px;
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 32px;
-  color: #fff;
   letter-spacing: 0.5px;
   width: 220px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  transition: all 400ms ease-in-out; }
+  .submit:hover {
+    background-color: #fff; }
 
 /*col-md-3 is in row 3/bottom nav bar*/
 .col-md-3 h2 {
@@ -227,11 +225,6 @@ input {
 .about-appt a {
   color: #332D2D;
   text-align: center;
-  transition: all 400ms ease-in-out; }
-
-.about-appt a:hover {
-  color: #16ab9f;
-  text-decoration: none;
   transition: all 400ms ease-in-out; }
 
 .address-text {

@@ -1,5 +1,17 @@
+//Placeholders
+%hover-on {
+	color: $hover-color;
+	text-decoration: none;
+	transition: #{$hover};
+}
 
 //Mixins
+@mixin hover-off ($color) {
+	color: $color;
+	text-align: center;
+  transition: #{$hover};
+}
+
 //fontface mixin from jonathantneal @ github
 // =============================================================================
 // String Replace
