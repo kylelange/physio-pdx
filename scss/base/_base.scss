@@ -212,12 +212,12 @@ z-index: 1;
 
 /*Submit Button*/
 .submit {
-background: #1CD6C7;
-border: 3px solid #FFFFFF;
+background: $background-color;
+border: 3px solid $btn-text;
 border-radius: 14px;
 font-family: 'GillSans', sans-serif;
 font-size: 32px;
-color: #FFFFFF;
+color: $btn-text;
 letter-spacing: 0.5px;
 width: 220px;
 margin-top: 30px;
@@ -230,21 +230,21 @@ margin-top: 30px;
 
 /*about us page styling*/
 .row2-aboutUS h2 {
-  color: #332D2D;
+  color: $sec-text-color;
 }
 
 .row2-aboutUS {
   margin-top: 140px;
-  background-color: #fff;
+  background-color: $row2-bkgnd;
   padding: 50px;
 }
 
 .about-appt {
 font-family: 'GillSans', sans-serif;
 font-size: 39px;
-color: #332D2D;
+color: $sec-text-color;
 letter-spacing: 0.4px;
-border: 3px solid #332D2D;
+border: 3px solid $sec-text-color;
 border-radius: 14px;
 width: 502px;
 height: 75px;
@@ -254,19 +254,21 @@ z-index: 1;
 }
 
 .about-appt a{
-  color: #332D2D;
+  color: $sec-text-color;
   text-align: center;
+  transition: #{$hover}
 }
 
 .about-appt a:hover{
-  color: #16ab9f;
+  color: $hover-color;
   text-decoration: none;
+  transition: #{$hover}
 }
 
 .address-text {
   font-family: 'GillSans', sans-serif;
   font-size: 18px;
-  color: #332D2D;
+  color: $sec-text-color;
   text-align: center;
 }
 
@@ -285,7 +287,6 @@ z-index: 1;
 }
 
 #comment-input {
-
   width: 100%;
 }
 

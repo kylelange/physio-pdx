@@ -189,11 +189,11 @@ input {
 /*Submit Button*/
 .submit {
   background: #1CD6C7;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #fff;
   border-radius: 14px;
   font-family: 'GillSans', sans-serif;
   font-size: 32px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.5px;
   width: 220px;
   margin-top: 30px; }
@@ -226,11 +226,13 @@ input {
 
 .about-appt a {
   color: #332D2D;
-  text-align: center; }
+  text-align: center;
+  transition: all 400ms ease-in-out; }
 
 .about-appt a:hover {
   color: #16ab9f;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all 400ms ease-in-out; }
 
 .address-text {
   font-family: 'GillSans', sans-serif;
