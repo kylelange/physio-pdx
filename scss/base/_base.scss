@@ -6,7 +6,7 @@ background-color: $background-color;
 }
 
 li {
-  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-family: $font-sec;
   font-size: 24px;
 }
 
@@ -15,33 +15,33 @@ ul {
 }
 
 h1 {
-  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-family: $font-main;
   font-size: 64px;
   color: $h1color;
 }
 
 h2 {
-font-family: 'capsuula', 'Gill Sans', sans-serif;
+font-family: $font-main;
 font-size: 30px;
 color: $h2-text;
 letter-spacing: 0.31px;
 }
 
 p {
-font-family: 'GillSans', sans-serif;
+font-family: $font-sec;
 font-size: 18px;
 color: $p-text;
 }
 
 label {
-  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-family: $font-main;
   font-size: 20px;
   color: $label-text;
   letter-spacing: 0.31px;
 }
 
 input {
-  font-family:'Gill Sans', sans-serif;
+  font-family: $font-sec;
   font-size: 20px;
   color: $input-text;
   letter-spacing: 0.31px
@@ -81,7 +81,7 @@ input {
 
 /*appt button*/
 .appointment {
-font-family: 'GillSans', sans-serif;
+font-family: $font-sec;
 font-size: 39px;
 color: $heroBtn-color;
 letter-spacing: 0.4px;
@@ -147,7 +147,7 @@ z-index: 1;
 
 /*Services button*/
 .services {
-  font-family: 'GillSans', sans-serif;
+  font-family: $font-sec;
   font-size: 32px;
   color: $btn-text;
   letter-spacing: 0.5px;
@@ -178,7 +178,7 @@ z-index: 1;
 }
 
 .carousel-caption p {
-  font-style: 'Gill Sans', sans-serif;
+  font-style: $font-sec;
   color: $carousel-caption;
   font-size: 18px;
   letter-spacing: 0.5px;
@@ -191,7 +191,7 @@ z-index: 1;
 }
 
 .row3 li {
-  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-family: $font-main;
   font-size: 20px;
   color: $li-a-text;
   letter-spacing: 0.31px;
@@ -215,7 +215,7 @@ z-index: 1;
 background: $background-color;
 border: 3px solid $btn-text;
 border-radius: 14px;
-font-family: 'GillSans', sans-serif;
+font-family: $font-sec;
 font-size: 32px;
 color: $btn-text;
 letter-spacing: 0.5px;
@@ -240,7 +240,7 @@ margin-top: 30px;
 }
 
 .about-appt {
-font-family: 'GillSans', sans-serif;
+font-family: $font-sec;
 font-size: 39px;
 color: $sec-text-color;
 letter-spacing: 0.4px;
@@ -266,7 +266,7 @@ z-index: 1;
 }
 
 .address-text {
-  font-family: 'GillSans', sans-serif;
+  font-family: $font-sec;
   font-size: 18px;
   color: $sec-text-color;
   text-align: center;

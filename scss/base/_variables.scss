@@ -35,6 +35,11 @@ $sec-text-color: $chocolate;
 //interpolation of img files
 
 //fonts
+$font-stack-main: 'Gill Sans', 'Gill Sans MT', sans-serif;
+$font-main: 'capsuula', $font-stack-main;
+$font-stack-sec: 'Gill Sans MT', sans-serif;
+$font-sec: 'Gill Sans', $font-stack-sec;
+
 
 //hover and other effects
 

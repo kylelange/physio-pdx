@@ -12,36 +12,36 @@ body {
     font-family: "capsuula";
     src: url("fonts/capsuula.eot?") format("eot"), url("fonts/capsuula.woff2") format("woff2"), url("fonts/capsuula.woff") format("woff"), url("fonts/capsuula.ttf") format("truetype"), url("fonts/capsuula.svg#capsuula") format("svg"); } }
 li {
-  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 24px; }
 
 ul {
   list-style-type: none; }
 
 h1 {
-  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-family: "capsuula", "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 64px;
   color: #1CD6C7; }
 
 h2 {
-  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-family: "capsuula", "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 30px;
   color: #fff;
   letter-spacing: 0.31px; }
 
 p {
-  font-family: 'GillSans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 18px;
   color: #4A4A4A; }
 
 label {
-  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-family: "capsuula", "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 20px;
   color: #fff;
   letter-spacing: 0.31px; }
 
 input {
-  font-family: 'Gill Sans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 20px;
   color: #2f2f2f;
   letter-spacing: 0.31px; }
@@ -75,7 +75,7 @@ input {
 
 /*appt button*/
 .appointment {
-  font-family: 'GillSans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 39px;
   color: #fff;
   letter-spacing: 0.4px;
@@ -132,7 +132,7 @@ input {
 
 /*Services button*/
 .services {
-  font-family: 'GillSans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 32px;
   color: #fff;
   letter-spacing: 0.5px;
@@ -159,7 +159,7 @@ input {
   transform: translateY(-15%); }
 
 .carousel-caption p {
-  font-style: 'Gill Sans', sans-serif;
+  font-style: "Gill Sans", "Gill Sans MT", sans-serif;
   color: #fff;
   font-size: 18px;
   letter-spacing: 0.5px; }
@@ -170,7 +170,7 @@ input {
   padding: 35px; }
 
 .row3 li {
-  font-family: 'capsuula', 'Gill Sans', sans-serif;
+  font-family: "capsuula", "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 20px;
   color: #fff;
   letter-spacing: 0.31px;
@@ -191,7 +191,7 @@ input {
   background: #1CD6C7;
   border: 3px solid #fff;
   border-radius: 14px;
-  font-family: 'GillSans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 32px;
   color: #fff;
   letter-spacing: 0.5px;
@@ -212,7 +212,7 @@ input {
   padding: 50px; }
 
 .about-appt {
-  font-family: 'GillSans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 39px;
   color: #332D2D;
   letter-spacing: 0.4px;
@@ -235,7 +235,7 @@ input {
   transition: all 400ms ease-in-out; }
 
 .address-text {
-  font-family: 'GillSans', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 18px;
   color: #332D2D;
   text-align: center; }
