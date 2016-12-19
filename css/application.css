@@ -18,7 +18,6 @@ li {
 ul {
   list-style-type: none; }
 
-/*FONT*/
 h1 {
   font-family: 'capsuula', 'Gill Sans', sans-serif;
   font-size: 64px;
@@ -27,7 +26,7 @@ h1 {
 h2 {
   font-family: 'capsuula', 'Gill Sans', sans-serif;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.31px; }
 
 p {
@@ -38,7 +37,7 @@ p {
 label {
   font-family: 'capsuula', 'Gill Sans', sans-serif;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.31px; }
 
 input {
@@ -58,10 +57,11 @@ input {
 .navbar li {
   float: left;
   padding-left: 15px;
-  font-size: 2em; }
+  font-size: 2em;
+  transition: all 400ms ease-in-out; }
 
 .navbar a {
-  color: white;
+  color: #fff;
   letter-spacing: 0.4px;
   display: block;
   text-align: justify;
@@ -69,15 +69,17 @@ input {
   text-decoration: none; }
 
 .navbar li a:hover {
-  color: #16ab9f; }
+  color: #16ab9f;
+  transition: all 400ms ease-in-out;
+  transform: scale(1.2); }
 
-/*Make an appt button*/
+/*appt button*/
 .appointment {
   font-family: 'GillSans', sans-serif;
   font-size: 39px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.4px;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #fff;
   border-radius: 14px;
   width: 502px;
   height: 75px;
@@ -87,11 +89,13 @@ input {
 
 .appointment a {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  transition: all 400ms ease-in-out; }
 
 .appointment a:hover {
   color: #16ab9f;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all 400ms ease-in-out; }
 
 .splash-intro-text {
   margin-top: 300px;
@@ -130,7 +134,7 @@ input {
 .services {
   font-family: 'GillSans', sans-serif;
   font-size: 32px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.5px;
   background: #1CD6C7;
   border: 3px solid #332D2D;

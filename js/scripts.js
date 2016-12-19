@@ -17,8 +17,8 @@ $(document).ready(function(){
     var newComment = new Comment(inputName, inputEmail, inputComment);
     databases.push(newComment);
     $("#output").append("<h2> Thanks "+newComment.name+", we will be in touch soon.</h2>")
-    $("#output").slideDown(1500);
-    $("#output").slideUp(1500);
+    $("#output").slideDown(1300);
+    $("#output").slideUp(1300);
   });
 
 // Carousel activation and indicators

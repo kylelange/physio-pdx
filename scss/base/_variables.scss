@@ -1,0 +1,40 @@
+//color types
+
+$white: #fff;
+$black: #000;
+$grey: #4A4A4A;
+$dark-grey: #2f2f2f;
+$turquoise: #1CD6C7;
+$dark-turq: #16ab9f;
+$chocolate: #332D2D;
+$opacity: rgba(255, 255, 255, 0.2);
+
+//color uses
+
+$background-color: $turquoise;
+$img-overlay: $dark-grey;
+$hover-color: $dark-turq;
+$h1color: $turquoise;
+$h2-text: $white;
+$li-a-text: $white;
+$label-text: $white;
+$input-text: $dark-grey;
+$p-text: $grey;
+$opacity: $opacity;
+$heroBtn-color: $white;
+$btn-text: $white;
+$row2-bkgnd: $white;
+$row3-bkgnd: $chocolate;
+
+
+
+//breakpoints
+
+//interpolation of img files
+
+//fonts
+
+//hover and other effects
+
+$hover: 'all 400ms ease-in-out';
+$scale: 'scale(1.2)';

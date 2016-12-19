@@ -1,7 +1,7 @@
 /*Universal Selectors****************/
 
 body {
-background-color: #1CD6C7;
+background-color: $background-color;
 @include font-face('capsuula', fonts/capsuula);
 }
 
@@ -14,50 +14,43 @@ ul {
   list-style-type: none;
 }
 
-/*FONT*/
-// @font-face {
-//   font-family: 'capsuula';
-//   src: url(../fonts/Capsuula.ttf) format("truetype");
-// }
-
-
 h1 {
   font-family: 'capsuula', 'Gill Sans', sans-serif;
   font-size: 64px;
-  color: #1CD6C7;
+  color: $h1color;
 }
 
 h2 {
 font-family: 'capsuula', 'Gill Sans', sans-serif;
 font-size: 30px;
-color: #FFFFFF;
+color: $h2-text;
 letter-spacing: 0.31px;
 }
 
 p {
 font-family: 'GillSans', sans-serif;
 font-size: 18px;
-color: #4A4A4A;
+color: $p-text;
 }
 
 label {
   font-family: 'capsuula', 'Gill Sans', sans-serif;
   font-size: 20px;
-  color: #FFFFFF;
+  color: $label-text;
   letter-spacing: 0.31px;
 }
 
 input {
   font-family:'Gill Sans', sans-serif;
   font-size: 20px;
-  color: #2f2f2f;
+  color: $input-text;
   letter-spacing: 0.31px
 }
 
 /*Class Selectors********************/
 
 .navbar ul {
-   background-color: rgba(255, 255, 255, 0.2);
+   background-color: $opacity;
    width: 100%;
    z-index: 1;
    margin-top: -2px;
@@ -67,12 +60,12 @@ input {
 .navbar li {
   float: left;
   padding-left: 15px;
-  font-size: 2em
-
+  font-size: 2em;
+  transition: #{$hover};
 }
 
 .navbar a {
-  color: white;
+  color: $li-a-text;
   letter-spacing: 0.4px;
   display: block;
   text-align: justify;
@@ -81,16 +74,18 @@ input {
 }
 
 .navbar li a:hover {
-  color: #16ab9f;
+  color: $hover-color;
+  transition: #{$hover};
+  transform: #{$scale};
 }
 
-/*Make an appt button*/
+/*appt button*/
 .appointment {
 font-family: 'GillSans', sans-serif;
 font-size: 39px;
-color: #FFFFFF;
+color: $heroBtn-color;
 letter-spacing: 0.4px;
-border: 3px solid #FFFFFF;
+border: 3px solid $heroBtn-color;
 border-radius: 14px;
 width: 502px;
 height: 75px;
@@ -100,13 +95,15 @@ z-index: 1;
 }
 
 .appointment a{
-  color: #fff;
+  color: $heroBtn-color;
   text-align: center;
+  transition: #{$hover};
 }
 
 .appointment a:hover{
-  color: #16ab9f;
+  color: $hover-color;
   text-decoration: none;
+  transition: #{$hover};
 }
 
 .splash-intro-text {
@@ -126,7 +123,7 @@ z-index: 1;
 }
 
 .filter {
-  background-color: #2f2f2f;
+  background-color: $img-overlay;
   filter: opacity(50%);
   height: 753.734px;
   position: absolute;
@@ -136,7 +133,7 @@ z-index: 1;
 
 .row2 {
   margin-top: 140px;
-  background-color: #fff;
+  background-color: $row2-bkgnd;
   padding: 50px;
 }
 
@@ -152,10 +149,10 @@ z-index: 1;
 .services {
   font-family: 'GillSans', sans-serif;
   font-size: 32px;
-  color: #FFFFFF;
+  color: $btn-text;
   letter-spacing: 0.5px;
-  background: #1CD6C7;
-  border: 3px solid #332D2D;
+  background: $background-color;
+  border: 3px solid $row3-bkgnd;
   border-radius: 14px;
   width: 200px;
   height: 60px;
