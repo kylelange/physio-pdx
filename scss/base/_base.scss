@@ -160,13 +160,15 @@ z-index: 1;
 }
 
 .services a{
-  color: #fff;
+  color: $li-a-text;
   text-align: center;
+  transition: #{$hover};
 }
 
 .services a:hover{
-  color: #16ab9f;
+  color: $hover-color;
   text-decoration: none;
+  transition: #{$hover};
 }
 
 /*Photo carousel*/
@@ -177,33 +179,35 @@ z-index: 1;
 
 .carousel-caption p {
   font-style: 'Gill Sans', sans-serif;
-  color: #fff;
+  color: $carousel-caption;
   font-size: 18px;
   letter-spacing: 0.5px;
 }
 
 /*Footer*/
 .row3 {
-  background-color: #332D2D;
+  background-color: $row3-bkgnd;
   padding: 35px;
 }
 
 .row3 li {
   font-family: 'capsuula', 'Gill Sans', sans-serif;
   font-size: 20px;
-  color: #FFFFFF;
+  color: $li-a-text;
   letter-spacing: 0.31px;
   padding: 15px;
 }
 
 .row3 a{
-  color: #fff;
+  color: $li-a-text;
   text-align: center;
+  transition: #{$hover};
 }
 
 .row3 a:hover{
-  color: #16ab9f;
+  color: $hover-color;
   text-decoration: none;
+  transition: #{$hover};
 }
 
 /*Submit Button*/

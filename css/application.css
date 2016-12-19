@@ -145,11 +145,13 @@ input {
 
 .services a {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  transition: all 400ms ease-in-out; }
 
 .services a:hover {
   color: #16ab9f;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all 400ms ease-in-out; }
 
 /*Photo carousel*/
 .carousel-caption {
@@ -170,17 +172,19 @@ input {
 .row3 li {
   font-family: 'capsuula', 'Gill Sans', sans-serif;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #fff;
   letter-spacing: 0.31px;
   padding: 15px; }
 
 .row3 a {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  transition: all 400ms ease-in-out; }
 
 .row3 a:hover {
   color: #16ab9f;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all 400ms ease-in-out; }
 
 /*Submit Button*/
 .submit {
