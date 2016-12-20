@@ -20,6 +20,7 @@ li {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 h1 {
@@ -410,6 +411,10 @@ z-index: 1;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  col-md-3 ul {
+    margin: auto 0;
   }
 
   .col-md-3 li {
