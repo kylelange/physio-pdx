@@ -273,25 +273,29 @@ margin-top: 30px;
 }
 
 /*about us page styling*/
-.row2-aboutUS h2 {
-  color: $sec-text-color;
-}
 
 .row2-aboutUS {
   margin-top: 140px;
   background-color: $row2-bkgnd;
-  padding: 50px;
+  padding: 35px;
+  &:last-child h2 {
+    margin: 5%;
+  }
+  h2 {
+    color: $sec-text-color;
+    margin-bottom: 20px;
+  }
 }
 
 .about-appt {
 font-family: $font-sec;
-font-size: 39px;
+font-size: 32px;
 color: $sec-text-color;
 letter-spacing: 0.4px;
 border: 3px solid $sec-text-color;
 border-radius: 14px;
-width: 502px;
-height: 75px;
+width: 75%;
+height: auto;
 background: transparent;
 margin-top: 100px;
 z-index: 1;
@@ -330,13 +334,15 @@ z-index: 1;
 }
 
 #location-photo {
-  height: 450px;
-  width: 450px;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
 }
 
 #sarah-photo {
-  height: 240px;
-  width: 240px;
+  width: 68%;
+  height: auto;
+  margin-left: 16%;
 }
 
 /*Media Queries**********************/
