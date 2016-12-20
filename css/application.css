@@ -169,7 +169,13 @@ input {
   border-radius: 14px;
   width: 200px;
   height: 60px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  color: #fff;
+  text-align: center;
+  transition: all 400ms ease-in-out; }
+  .services:hover {
+    transition: all 400ms ease-in-out;
+    background: #332D2D; }
 
 .services a {
   color: #fff;
@@ -177,7 +183,6 @@ input {
   transition: all 400ms ease-in-out;
   text-decoration: none; }
   .services a:hover {
-    background-color: #332D2D;
     text-decoration: none; }
 
 /*Photo carousel*/

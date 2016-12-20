@@ -180,6 +180,11 @@ z-index: 1;
   width: 200px;
   height: 60px;
   margin-bottom: 50px;
+  @include hover-off($btn-text) {};
+  &:hover {
+    transition: #{$hover};
+    background: $sec-text-color;
+  }
 }
 
 .services a{
@@ -187,7 +192,6 @@ z-index: 1;
   text-decoration: none;
   &:hover {
     @extend %hover-on;
-    background-color: $sec-text-color;
     text-decoration: none;
   }
 }
