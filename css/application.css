@@ -52,15 +52,43 @@ input {
   color: #2f2f2f;
   letter-spacing: 0.31px; }
 
-/*Class Selectors********************/
-.navbar ul {
+.navbar-default {
   background-color: rgba(255, 255, 255, 0.2);
+  border: none; }
+
+.navbar-default .navbar-brand {
+  color: #fff; }
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #16ab9f; }
+
+.navbar-default .navbar-text {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #16ab9f;
+  background-color: transparent; }
+
+/*Class Selectors********************/
+.navbar, .navbar-default {
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 80px;
+  margin-top: -2px; }
+
+.navbar-default ul {
   width: 100%;
   z-index: 1;
   margin-top: -2px;
   position: absolute; }
 
 .navbar li {
+  color: #fff;
   float: left;
   padding-left: 15px;
   font-size: 2em;

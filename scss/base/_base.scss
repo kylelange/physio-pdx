@@ -47,23 +47,53 @@ input {
   letter-spacing: 0.31px
 }
 
-/*Class Selectors********************/
+// css bootstrap defult nav fixes
 
-.navbar ul {
-   background-color: $opacity;
-   width: 100%;
-   z-index: 1;
-   margin-top: -2px;
-   position: absolute;
+.navbar-default {
+  background-color: $opacity;
+  border: none;
+}
+.navbar-default .navbar-brand {
+  color: $li-a-text;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: $hover-color;
+  //background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: $li-a-text;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $li-a-text;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: $hover-color;
+  background-color: transparent;
 }
 
+/*Class Selectors********************/
+.navbar, .navbar-default {
+  border-radius: 0px;
+  background-color: $opacity;
+  height: 80px;
+  margin-top: -2px;
+}
+.navbar-default ul {
+  //background-color: $opacity;
+  width: 100%;
+  z-index: 1;
+  margin-top: -2px;
+  position: absolute;
+}
 .navbar li {
+  color: $li-a-text;
   float: left;
   padding-left: 15px;
   font-size: 2em;
   transition: #{$hover};
 }
-
 .navbar a {
   letter-spacing: 0.4px;
   display: block;
