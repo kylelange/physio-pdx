@@ -55,6 +55,16 @@ input {
   letter-spacing: 0.31px
 }
 
+.container {
+  padding: 0;
+  //margin: 0;
+}
+.row {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 // css bootstrap defult nav fixes
 
 .navbar-default {
@@ -156,7 +166,7 @@ z-index: 1;
 }
 
 .row2 {
-  margin-top: 140px;
+  margin-top: 130px;
   background-color: $row2-bkgnd;
   padding: 50px;
   display: flex;
@@ -342,7 +352,7 @@ z-index: 1;
   }
 
   .splash-photo {
-    width: 970px;
+    width: 100%;
   }
 
   .splash-intro-text {
@@ -350,7 +360,7 @@ z-index: 1;
   }
 
   .row2 {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .carousel-caption {
@@ -372,7 +382,7 @@ z-index: 1;
 /*tablet*/
 @media only screen and (max-width:991px) {
   .splash-photo {
-    width: 96%;
+    width: 100%;
     height: 500px;
     object-fit: cover;
   }

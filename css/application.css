@@ -59,6 +59,14 @@ input {
   color: #2f2f2f;
   letter-spacing: 0.31px; }
 
+.container {
+  padding: 0; }
+
+.row {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.2);
   border: none; }
@@ -148,7 +156,7 @@ input {
   position: absolute; }
 
 .row2 {
-  margin-top: 140px;
+  margin-top: 130px;
   background-color: #fff;
   padding: 50px;
   display: flex;
@@ -305,13 +313,13 @@ input {
     padding-top: 20px; }
 
   .splash-photo {
-    width: 970px; }
+    width: 100%; }
 
   .splash-intro-text {
     margin-top: 235px; }
 
   .row2 {
-    margin-top: 80px; }
+    margin-top: 60px; }
 
   .carousel-caption {
     top: 80% !important;
@@ -327,7 +335,7 @@ input {
 /*tablet*/
 @media only screen and (max-width: 991px) {
   .splash-photo {
-    width: 96%;
+    width: 100%;
     height: 500px;
     object-fit: cover; }
 
