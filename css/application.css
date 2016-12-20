@@ -10,6 +10,13 @@ html {
   transition: all 400ms ease-in-out; }
 
 /*Universal Selectors****************/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background-color: #1CD6C7;
   -webkit-font-smooth: antialiased; }
@@ -132,31 +139,23 @@ input {
   z-index: 0; }
 
 .splash-photo {
+  -webkit-filter: brightness(60%);
+  filter: brightness(60%);
   display: block;
   margin: auto;
   width: 100%;
   z-index: -2;
   position: absolute; }
 
-.filter {
-  background-color: #2f2f2f;
-  filter: opacity(50%);
-  height: 753.734px;
-  position: absolute;
-  width: 100%;
-  z-index: -1; }
-
 .row2 {
   margin-top: 140px;
   background-color: #fff;
-  padding: 50px; }
-
-.row2 p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 480px;
-  /*need flexbox!*/
-  padding-bottom: 50px; }
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .row2 p {
+    padding-bottom: 50px; }
 
 /*Services button*/
 .services {
@@ -212,6 +211,12 @@ input {
   color: #fff;
   text-align: center;
   transition: all 400ms ease-in-out; }
+
+.col-md-6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center; }
 
 /*Submit Button*/
 .submit {
@@ -299,10 +304,6 @@ input {
     letter-spacing: 0.7px;
     padding-top: 20px; }
 
-  .filter {
-    height: 642.45px;
-    width: 970px; }
-
   .splash-photo {
     width: 970px; }
 
@@ -326,11 +327,9 @@ input {
 /*tablet*/
 @media only screen and (max-width: 991px) {
   .splash-photo {
-    width: 750px; }
-
-  .filter {
-    height: 496.75px;
-    width: 750px; }
+    width: 96%;
+    height: 500px;
+    object-fit: cover; }
 
   .splash-intro-text {
     margin-top: 175px;
