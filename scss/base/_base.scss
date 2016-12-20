@@ -7,6 +7,32 @@
   box-sizing: border-box;
 }
 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 body {
   background-color: $background-color;
   @include font-face('capsuula', fonts/capsuula);
@@ -66,7 +92,7 @@ input {
   padding: 0;
 }
 
-// css bootstrap defult nav fixes
+// css bootstrap default nav fixes
 
 .navbar-default {
   background-color: $opacity;
@@ -108,10 +134,13 @@ input {
 }
 .navbar li {
   color: $li-a-text;
-  float: left;
-  padding-left: 15px;
+  padding: 15px;
   font-size: 2em;
   transition: #{$hover};
+  &:first-child {
+    padding: 0;
+    margin-right: 20px;
+  }
 }
 .navbar a {
   letter-spacing: 0.4px;
@@ -167,7 +196,7 @@ z-index: 1;
 }
 
 .row2 {
-  margin-top: 130px;
+  margin-top: 120px;
   background-color: $row2-bkgnd;
   padding: 50px;
   display: flex;
@@ -275,7 +304,7 @@ margin-top: 30px;
 /*about us page styling*/
 
 .row2-aboutUS {
-  margin-top: 140px;
+  margin-top: 120px;
   background-color: $row2-bkgnd;
   padding: 35px;
   &:last-child h2 {
@@ -283,7 +312,7 @@ margin-top: 30px;
   }
   h2 {
     color: $sec-text-color;
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
 }
 

@@ -17,6 +17,30 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
 body {
   background-color: #1CD6C7;
   -webkit-font-smooth: antialiased; }
@@ -105,10 +129,12 @@ input {
 
 .navbar li {
   color: #fff;
-  float: left;
-  padding-left: 15px;
+  padding: 15px;
   font-size: 2em;
   transition: all 400ms ease-in-out; }
+  .navbar li:first-child {
+    padding: 0;
+    margin-right: 20px; }
 
 .navbar a {
   letter-spacing: 0.4px;
@@ -157,7 +183,7 @@ input {
   position: absolute; }
 
 .row2 {
-  margin-top: 130px;
+  margin-top: 120px;
   background-color: #fff;
   padding: 50px;
   display: flex;
@@ -249,14 +275,14 @@ input {
 
 /*about us page styling*/
 .row2-aboutUS {
-  margin-top: 140px;
+  margin-top: 120px;
   background-color: #fff;
   padding: 35px; }
   .row2-aboutUS:last-child h2 {
     margin: 5%; }
   .row2-aboutUS h2 {
     color: #332D2D;
-    margin-bottom: 20px; }
+    margin: 20px 0; }
 
 .about-appt {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
