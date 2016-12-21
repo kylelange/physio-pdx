@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.navbar a:hover, .navbar a .navbar li, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover {
+.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover {
   color: #16ab9f;
   text-decoration: none;
   transition: all 400ms ease-in-out; }
@@ -133,8 +133,7 @@ input {
   font-size: 2em;
   transition: all 400ms ease-in-out; }
   .navbar li:first-child {
-    padding: 0;
-    margin-right: 20px; }
+    padding: 0; }
 
 .navbar a {
   letter-spacing: 0.4px;
@@ -147,6 +146,19 @@ input {
   transition: all 400ms ease-in-out; }
   .navbar a:hover, .navbar a .navbar li {
     transform: scale(1.2); }
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+#menu-li {
+  font-size: 1.3em; }
+  #menu-li a {
+    color: #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 400ms ease-in-out; }
+    #menu-li a:hover {
+      transform: none !important; }
 
 /*appt button*/
 .appointment {

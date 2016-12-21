@@ -139,7 +139,6 @@ input {
   transition: #{$hover};
   &:first-child {
     padding: 0;
-    margin-right: 20px;
   }
 }
 .navbar a {
@@ -152,6 +151,22 @@ input {
   &:hover, .navbar li {
     @extend %hover-on;
     transform: #{$scale};
+  }
+}
+
+.dropdown-menu {
+  background-color: $opacity;
+}
+
+#menu-li {
+  font-size: 1.3em;
+  a {
+    color: $li-a-text;
+    @include hover-off($li-a-text) {};
+    &:hover {
+      @extend %hover-on;
+      transform: none !important;
+    }
   }
 }
 
