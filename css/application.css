@@ -433,5 +433,10 @@ input {
   .col-md-3 li {
     text-align: center; } }
 /*mobile*/
+@media only screen and (max-width: 767px) {
+  .navbar-default ul {
+    background-color: #332D2D;
+    margin-top: 29px;
+    width: 101%; } }
 
 /*# sourceMappingURL=application.css.map */

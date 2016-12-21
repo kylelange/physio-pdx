@@ -505,6 +505,10 @@ z-index: 1;
 }
 
 /*mobile*/
-// @media only screen and (max-width:767px) {
-//
-// }
+@media only screen and (max-width:767px) {
+  .navbar-default ul {
+    background-color: $nav-mobile-bkgrnd;
+    margin-top: 29px;
+    width: 101%;
+  }
+}
