@@ -50,7 +50,7 @@ body {
     src: url("fonts/capsuula.eot?") format("eot"), url("fonts/capsuula.woff2") format("woff2"), url("fonts/capsuula.woff") format("woff"), url("fonts/capsuula.ttf") format("truetype"), url("fonts/capsuula.svg#capsuula") format("svg"); } }
 li {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
-  font-size: 24px; }
+  font-size: 16px; }
 
 ul {
   list-style-type: none;
@@ -84,6 +84,7 @@ input {
   color: #2f2f2f;
   letter-spacing: 0.31px; }
 
+/*Class Selectors********************/
 .container {
   padding: 0; }
 
@@ -114,7 +115,10 @@ input {
   color: #16ab9f;
   background-color: transparent; }
 
-/*Class Selectors********************/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #16ab9f;
+  background-color: rgba(255, 255, 255, 0.001); }
+
 .navbar, .navbar-default {
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -125,13 +129,15 @@ input {
   width: 100%;
   z-index: 1;
   margin-top: -2px;
+  margin-left: -20px;
   position: absolute; }
 
 .navbar li {
   color: #fff;
   padding: 15px;
-  font-size: 2em;
-  transition: all 400ms ease-in-out; }
+  font-size: 1.8em;
+  transition: all 400ms ease-in-out;
+  margin-left: 3%; }
   .navbar li:first-child {
     padding: 0; }
 
@@ -147,17 +153,29 @@ input {
   .navbar a:hover, .navbar a .navbar li {
     transform: scale(1.2); }
 
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 5px; }
+
 .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.2); }
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 3px; }
+
+.dropdown-menu .divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #1CD6C7;
+  padding: 0px; }
 
 #menu-li {
-  font-size: 1.3em; }
+  font-size: 1.5em;
+  padding: 3px 0; }
   #menu-li a {
     color: #fff;
     color: #fff;
     text-align: center;
     transition: all 400ms ease-in-out; }
     #menu-li a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
       transform: none !important; }
 
 /*appt button*/
@@ -329,7 +347,8 @@ input {
 /*Id Selectors***********************/
 #nav-logo {
   height: 75px;
-  width: 220px; }
+  width: 220px;
+  margin-right: 10%; }
 
 #comment-input {
   width: 100%; }
@@ -348,8 +367,8 @@ input {
 /*smaller desktops*/
 @media only screen and (max-width: 1200px) {
   .navbar li {
-    font-size: 1.5em;
-    padding-left: 8px; }
+    padding-left: 8px;
+    margin-left: 2%; }
 
   .navbar a {
     letter-spacing: 0.7px;
@@ -377,6 +396,10 @@ input {
     width: 205px; } }
 /*tablet*/
 @media only screen and (max-width: 991px) {
+  .navbar li {
+    font-size: 1.2em;
+    margin-left: 1%; }
+
   .splash-photo {
     width: 100%;
     height: 500px;

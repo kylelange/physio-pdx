@@ -41,7 +41,7 @@ body {
 
 li {
   font-family: $font-sec;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 ul {
@@ -82,6 +82,8 @@ input {
   letter-spacing: 0.31px
 }
 
+/*Class Selectors********************/
+
 .container {
   padding: 0;
   //margin: 0;
@@ -93,7 +95,6 @@ input {
 }
 
 // css bootstrap default nav fixes
-
 .navbar-default {
   background-color: $opacity;
   border: none;
@@ -118,7 +119,12 @@ input {
   background-color: transparent;
 }
 
-/*Class Selectors********************/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: $hover-color;
+    background-color: $clear;
+}
+
+//bespoke navbar styles
 .navbar, .navbar-default {
   border-radius: 0px;
   background-color: $opacity;
@@ -126,21 +132,26 @@ input {
   margin-top: -2px;
 }
 .navbar-default ul {
-  //background-color: $opacity;
   width: 100%;
   z-index: 1;
   margin-top: -2px;
+  margin-left: -20px;
   position: absolute;
 }
 .navbar li {
   color: $li-a-text;
   padding: 15px;
-  font-size: 2em;
+  font-size: 1.8em;
   transition: #{$hover};
+  margin-left: 3%;
   &:first-child {
     padding: 0;
   }
+  &:nth-child(2) {
+
+  }
 }
+
 .navbar a {
   letter-spacing: 0.4px;
   display: block;
@@ -154,16 +165,30 @@ input {
   }
 }
 
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 5px;
+}
+
 .dropdown-menu {
   background-color: $opacity;
+  margin-top: 3px;
+}
+
+.dropdown-menu .divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: $background-color;
+  padding: 0px;
 }
 
 #menu-li {
-  font-size: 1.3em;
+  font-size: 1.5em;
+  padding: 3px 0;
   a {
     color: $li-a-text;
     @include hover-off($li-a-text) {};
     &:hover {
+      background-color: $opacity;
       @extend %hover-on;
       transform: none !important;
     }
@@ -371,6 +396,7 @@ z-index: 1;
 #nav-logo {
   height: 75px;
   width: 220px;
+  margin-right: 10%;
 }
 
 #comment-input {
@@ -393,8 +419,8 @@ z-index: 1;
 /*smaller desktops*/
 @media only screen and (max-width:1200px) {
   .navbar li {
-    font-size: 1.5em;
     padding-left: 8px;
+    margin-left: 2%;
   }
 
   .navbar a {
@@ -432,6 +458,11 @@ z-index: 1;
 
 /*tablet*/
 @media only screen and (max-width:991px) {
+  .navbar li {
+    font-size: 1.2em;
+    margin-left: 1%;
+  }
+
   .splash-photo {
     width: 100%;
     height: 500px;
