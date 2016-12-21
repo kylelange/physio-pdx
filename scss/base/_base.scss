@@ -172,6 +172,7 @@ input {
 .dropdown-menu {
   background-color: $opacity;
   margin-top: 3px;
+  min-width: 170px;
 }
 
 .dropdown-menu .divider {
@@ -192,6 +193,9 @@ input {
       @extend %hover-on;
       transform: none !important;
     }
+  }
+  a:last-child {
+    padding-left: 13px;
   }
 }
 
