@@ -62,6 +62,11 @@ color: $h2-text;
 letter-spacing: 0.31px;
 }
 
+h6 {
+  font-family: $font-sec;
+  font-size: 1em;
+}
+
 p {
 font-family: $font-sec;
 font-size: 18px;
@@ -397,6 +402,20 @@ z-index: 1;
 }
 
 // patients.html page styling
+.row2-patients {
+  margin-top: 60px;
+  background-color: $row2-bkgnd;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  p {
+    padding-bottom: 50px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
 .faq {
   display: flex;
   flex-direction: row;
@@ -404,6 +423,12 @@ z-index: 1;
 .tile1 {
   @include tile($chocolate, $h2-text) {};
   width: 50%;
+  p {
+    @include hover-off($btn-text) {};
+      &:hover {
+        @extend %hover-on;
+      }
+  }
 }
 
 .tile2 {

@@ -4,10 +4,10 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover {
+.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover, .tile1 p:hover {
   color: #16ab9f;
   text-decoration: none;
-  transition: all 400ms ease-in-out; }
+  transition: all 600ms ease-in-out; }
 
 /*Universal Selectors****************/
 *,
@@ -66,6 +66,10 @@ h2 {
   font-size: 30px;
   color: #fff;
   letter-spacing: 0.31px; }
+
+h6 {
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  font-size: 1em; }
 
 p {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
@@ -136,7 +140,7 @@ input {
   color: #fff;
   padding: 15px;
   font-size: 1.8em;
-  transition: all 400ms ease-in-out;
+  transition: all 600ms ease-in-out;
   margin-left: 3%; }
   .navbar li:first-child {
     padding: 0; }
@@ -149,7 +153,7 @@ input {
   padding: 14px 50px;
   color: #fff;
   text-align: center;
-  transition: all 400ms ease-in-out; }
+  transition: all 600ms ease-in-out; }
   .navbar a:hover, .navbar a .navbar li {
     transform: scale(1.2); }
 
@@ -174,7 +178,7 @@ input {
     color: #fff;
     color: #fff;
     text-align: center;
-    transition: all 400ms ease-in-out; }
+    transition: all 600ms ease-in-out; }
     #menu-li a:hover {
       background-color: rgba(255, 255, 255, 0.2);
       transform: none !important; }
@@ -198,7 +202,7 @@ input {
 .appointment a {
   color: #fff;
   text-align: center;
-  transition: all 400ms ease-in-out; }
+  transition: all 600ms ease-in-out; }
 
 /*Headline/main photo*/
 .splash-intro-text {
@@ -241,15 +245,15 @@ input {
   margin-bottom: 50px;
   color: #fff;
   text-align: center;
-  transition: all 400ms ease-in-out; }
+  transition: all 600ms ease-in-out; }
   .services:hover {
-    transition: all 400ms ease-in-out;
+    transition: all 600ms ease-in-out;
     background: #332D2D; }
 
 .services a {
   color: #fff;
   text-align: center;
-  transition: all 400ms ease-in-out;
+  transition: all 600ms ease-in-out;
   text-decoration: none; }
   .services a:hover {
     text-decoration: none; }
@@ -280,7 +284,7 @@ input {
 .row3 a {
   color: #fff;
   text-align: center;
-  transition: all 400ms ease-in-out; }
+  transition: all 600ms ease-in-out; }
 
 .col-md-6 {
   display: flex;
@@ -300,7 +304,7 @@ input {
   margin-top: 30px;
   color: #fff;
   text-align: center;
-  transition: all 400ms ease-in-out; }
+  transition: all 600ms ease-in-out; }
   .submit:hover {
     background-color: #fff; }
 
@@ -334,7 +338,7 @@ input {
 .about-appt a {
   color: #332D2D;
   text-align: center;
-  transition: all 400ms ease-in-out; }
+  transition: all 600ms ease-in-out; }
 
 .address-text {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
@@ -348,13 +352,25 @@ input {
 .address-text:last-of-type {
   padding-bottom: 90px; }
 
+.row2-patients {
+  margin-top: 60px;
+  background-color: #fff;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .row2-patients p {
+    padding-bottom: 50px;
+    max-width: 700px;
+    margin: 0 auto; }
+
 .faq {
   display: flex;
   flex-direction: row; }
 
 .tile1 {
   background-color: #332D2D;
-  height: 400px;
+  height: 100vh;
   align-items: center;
   width: 50%; }
   .tile1 a {
@@ -363,10 +379,16 @@ input {
     color: #fff;
     padding: 10px;
     font-size: 1.3em; }
+  .tile1 h6 {
+    padding: 10px; }
+  .tile1 p {
+    color: #fff;
+    text-align: center;
+    transition: all 600ms ease-in-out; }
 
 .tile2 {
   background-color: #413939;
-  height: 400px;
+  height: 100vh;
   align-items: center;
   width: 50%; }
   .tile2 a {
@@ -375,10 +397,12 @@ input {
     color: #fff;
     padding: 10px;
     font-size: 1.3em; }
+  .tile2 h6 {
+    padding: 10px; }
 
 .tile3 {
   background-color: #1CD6C7;
-  height: 400px;
+  height: 100vh;
   align-items: center;
   width: 50%; }
   .tile3 a {
@@ -387,12 +411,14 @@ input {
     color: #4A4A4A;
     padding: 10px;
     font-size: 1.3em; }
+  .tile3 h6 {
+    padding: 10px; }
   .tile3 h1 {
     color: #fff; }
 
 .tile4 {
   background-color: #107c73;
-  height: 400px;
+  height: 100vh;
   align-items: center;
   width: 50%; }
   .tile4 a {
@@ -401,6 +427,8 @@ input {
     color: #4A4A4A;
     padding: 10px;
     font-size: 1.3em; }
+  .tile4 h6 {
+    padding: 10px; }
   .tile4 h1 {
     color: #fff; }
 

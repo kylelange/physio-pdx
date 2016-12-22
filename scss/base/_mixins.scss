@@ -14,7 +14,7 @@
 
 @mixin tile ($b-color:$row2-bkgnd, $t-color:$p-text) {
 	background-color: $b-color;
-	height: 400px;
+	height: 100vh;
 	align-items: center;
 	a {
 		text-decoration: none;
@@ -23,6 +23,9 @@
 		color: $t-color;
 		padding: 10px;
 		font-size: 1.3em;
+	}
+	h6 {
+		padding: 10px;
 	}
 }
 
