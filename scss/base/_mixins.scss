@@ -12,6 +12,15 @@
   transition: #{$hover};
 }
 
+@mixin tile ($b-color:$row2-bkgnd, $t-color:$p-text) {
+	background-color: $b-color;
+	height: 400px;
+	align-items: center;
+	p {
+		color: $t-color;
+	}
+}
+
 //fontface mixin from jonathantneal @ github
 // =============================================================================
 // String Replace

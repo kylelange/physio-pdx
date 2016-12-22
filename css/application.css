@@ -347,6 +347,33 @@ input {
 .address-text:last-of-type {
   padding-bottom: 90px; }
 
+.faq {
+  display: flex;
+  flex-direction: row; }
+
+.tile1 {
+  background-color: #332D2D;
+  height: 400px;
+  align-items: center; }
+  .tile1 p {
+    color: #fff; }
+
+.tile2 {
+  background-color: #413939;
+  height: 400px;
+  align-items: center; }
+  .tile2 p {
+    color: #fff; }
+
+.tile3 {
+  background-color: #1CD6C7;
+  height: 400px;
+  align-items: center; }
+  .tile3 p {
+    color: #4A4A4A; }
+  .tile3 h1 {
+    color: #fff; }
+
 /*Id Selectors***********************/
 #nav-logo {
   height: 75px;

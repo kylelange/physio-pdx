@@ -395,6 +395,24 @@ z-index: 1;
   padding-bottom: 90px;
 }
 
+// patients.html page styling
+.faq {
+  display: flex;
+  flex-direction: row;
+}
+.tile1 {
+  @include tile($chocolate, $h2-text) {};
+}
+.tile2 {
+  @include tile(lighten($chocolate, 5%), $h2-text) {};
+}
+.tile3 {
+  @include tile($turquoise) {};
+  h1 {
+    color: $h2-text;
+  }
+}
+
 /*Id Selectors***********************/
 
 #nav-logo {

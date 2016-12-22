@@ -42,4 +42,16 @@ $(document).ready(function(){
   $(".right").click(function(){
     $("#myCarousel").carousel("next");
   });
+
+//faq DOM manip. for answers
+  $("#faqQ1").click(function(){
+    $("#faqAnswer").empty();
+    $("<p>Test Answer 1</p>").hide().appendTo("#faqAnswer").fadeIn(1000);
+  });
+
+  $("#faqQ2").click(function(){
+    $("#faqAnswer").empty();
+    $("<p>Test Answer 2</p>").hide().appendTo("#faqAnswer").fadeIn(1000);
+  });
+
 });
