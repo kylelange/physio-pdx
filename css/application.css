@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover, .tile1 a, .tile2 a, .tile3 a, .tile4 a {
+.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover {
   color: #16ab9f;
   text-decoration: none;
   transition: all 400ms ease-in-out; }
@@ -356,9 +356,6 @@ input {
   background-color: #332D2D;
   height: 400px;
   align-items: center;
-  color: #fff;
-  text-align: center;
-  transition: all 400ms ease-in-out;
   width: 50%; }
   .tile1 a {
     text-decoration: none; }
@@ -371,9 +368,6 @@ input {
   background-color: #413939;
   height: 400px;
   align-items: center;
-  color: #fff;
-  text-align: center;
-  transition: all 400ms ease-in-out;
   width: 50%; }
   .tile2 a {
     text-decoration: none; }
@@ -386,9 +380,6 @@ input {
   background-color: #1CD6C7;
   height: 400px;
   align-items: center;
-  color: #fff;
-  text-align: center;
-  transition: all 400ms ease-in-out;
   width: 50%; }
   .tile3 a {
     text-decoration: none; }
@@ -403,9 +394,6 @@ input {
   background-color: #107c73;
   height: 400px;
   align-items: center;
-  color: #fff;
-  text-align: center;
-  transition: all 400ms ease-in-out;
   width: 50%; }
   .tile4 a {
     text-decoration: none; }

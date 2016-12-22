@@ -54,4 +54,24 @@ $(document).ready(function(){
     $("<p>Test Answer 2</p>").hide().appendTo("#faqAnswer").fadeIn(1000);
   });
 
+  $("#faqQ3").click(function(){
+    $("#faqAnswer").empty();
+    $("<p>Test Answer 3</p>").hide().appendTo("#faqAnswer").fadeIn(1000);
+  });
+
+  $("#faqQ4").click(function(){
+    $("#faqAnswer").empty();
+    $("<p>Test Answer 4</p>").hide().appendTo("#faqAnswer").fadeIn(1000);
+  });
+
+  $("#faqQ5").click(function(){
+    $("#faqAnswer").empty();
+    $("<p>Test Answer 5</p>").hide().appendTo("#faqAnswer").fadeIn(1000);
+  });
+
+  $("#faqQ6").click(function(){
+    $("#faqAnswer").empty();
+    $("<p>Test Answer 6</p>").hide().appendTo("#faqAnswer").fadeIn(1000);
+  });
+
 });
