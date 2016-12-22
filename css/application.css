@@ -370,7 +370,7 @@ input {
 
 .tile1 {
   background-color: #332D2D;
-  height: 100vh;
+  height: 75vh;
   align-items: center;
   width: 50%; }
   .tile1 a {
@@ -388,7 +388,7 @@ input {
 
 .tile2 {
   background-color: #413939;
-  height: 100vh;
+  height: 75vh;
   align-items: center;
   width: 50%; }
   .tile2 a {
@@ -402,7 +402,7 @@ input {
 
 .tile3 {
   background-color: #1CD6C7;
-  height: 100vh;
+  height: 75vh;
   align-items: center;
   width: 50%; }
   .tile3 a {
@@ -418,7 +418,7 @@ input {
 
 .tile4 {
   background-color: #107c73;
-  height: 100vh;
+  height: 75vh;
   align-items: center;
   width: 50%; }
   .tile4 a {
