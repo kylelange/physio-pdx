@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover {
+.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover, .tile1 a, .tile2 a, .tile3 a, .tile4 a {
   color: #16ab9f;
   text-decoration: none;
   transition: all 400ms ease-in-out; }
@@ -223,7 +223,9 @@ input {
   flex-wrap: wrap;
   justify-content: center; }
   .row2 p {
-    padding-bottom: 50px; }
+    padding-bottom: 50px;
+    max-width: 700px;
+    margin: 0 auto; }
 
 /*Services button*/
 .services {
@@ -306,7 +308,6 @@ input {
 .col-md-3 h2 {
   text-align: center; }
 
-/*about us page styling*/
 .row2-aboutUS {
   margin-top: 42px;
   background-color: #fff;
@@ -354,24 +355,65 @@ input {
 .tile1 {
   background-color: #332D2D;
   height: 400px;
-  align-items: center; }
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+  width: 50%; }
+  .tile1 a {
+    text-decoration: none; }
   .tile1 p {
-    color: #fff; }
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3em; }
 
 .tile2 {
   background-color: #413939;
   height: 400px;
-  align-items: center; }
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+  width: 50%; }
+  .tile2 a {
+    text-decoration: none; }
   .tile2 p {
-    color: #fff; }
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3em; }
 
 .tile3 {
   background-color: #1CD6C7;
   height: 400px;
-  align-items: center; }
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+  width: 50%; }
+  .tile3 a {
+    text-decoration: none; }
   .tile3 p {
-    color: #4A4A4A; }
+    color: #4A4A4A;
+    padding: 10px;
+    font-size: 1.3em; }
   .tile3 h1 {
+    color: #fff; }
+
+.tile4 {
+  background-color: #107c73;
+  height: 400px;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  transition: all 400ms ease-in-out;
+  width: 50%; }
+  .tile4 a {
+    text-decoration: none; }
+  .tile4 p {
+    color: #4A4A4A;
+    padding: 10px;
+    font-size: 1.3em; }
+  .tile4 h1 {
     color: #fff; }
 
 /*Id Selectors***********************/

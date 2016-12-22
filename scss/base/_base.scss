@@ -248,6 +248,8 @@ z-index: 1;
   justify-content: center;
   p {
     padding-bottom: 50px;
+    max-width: 700px;
+    margin: 0 auto;
   }
 }
 
@@ -345,8 +347,7 @@ margin-top: 30px;
   text-align: center;
 }
 
-/*about us page styling*/
-
+//about us page styling
 .row2-aboutUS {
   margin-top: 42px;
   background-color: $row2-bkgnd;
@@ -402,19 +403,31 @@ z-index: 1;
 }
 .tile1 {
   @include tile($chocolate, $h2-text) {};
+  width: 50%;
 }
+
 .tile2 {
   @include tile(lighten($chocolate, 5%), $h2-text) {};
+  width: 50%;
 }
+
 .tile3 {
   @include tile($turquoise) {};
+  width: 50%;
+  h1 {
+    color: $h2-text;
+  }
+}
+
+.tile4 {
+  @include tile(darken($turquoise, 20%)) {};
+  width: 50%;
   h1 {
     color: $h2-text;
   }
 }
 
 /*Id Selectors***********************/
-
 #nav-logo {
   height: 75px;
   width: 220px;

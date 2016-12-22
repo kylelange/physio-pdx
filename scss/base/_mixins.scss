@@ -16,8 +16,15 @@
 	background-color: $b-color;
 	height: 400px;
 	align-items: center;
+	@include hover-off($btn-text) {};
+	a {
+		text-decoration: none;
+		@extend %hover-on;
+	}
 	p {
 		color: $t-color;
+		padding: 10px;
+		font-size: 1.3em;
 	}
 }
 
