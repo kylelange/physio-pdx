@@ -51,7 +51,7 @@ ul {
 
 h1 {
   font-family: $font-main;
-  font-size: 64px;
+  font-size: 60px;
   color: $h1color;
 }
 
@@ -428,6 +428,9 @@ z-index: 1;
 .tile1 {
   @include tile($chocolate, $h2-text) {};
   width: 50%;
+  h1 {
+    padding: 10px;
+  }
   p {
     @include hover-off($btn-text) {};
       &:hover {
@@ -439,6 +442,9 @@ z-index: 1;
 .tile2 {
   @include tile(lighten($chocolate, 5%), $h2-text) {};
   width: 50%;
+  h1 {
+    padding: 10px;
+  }
 }
 
 .tile3 {
@@ -446,6 +452,7 @@ z-index: 1;
   width: 50%;
   h1 {
     color: $h2-text;
+    padding: 10px;
   }
 }
 
@@ -454,11 +461,20 @@ z-index: 1;
   width: 50%;
   h1 {
     color: $h2-text;
+    padding: 10px;
   }
 }
 
 .first-visit, .faq {
   width: 100%;
+}
+
+//contacts styling
+
+.row1-contact {
+  h1 {
+    padding-bottom: 250px;
+  }
 }
 
 /*Id Selectors***********************/
@@ -474,7 +490,7 @@ z-index: 1;
 
 #location-photo {
   width: 90%;
-  height: 380px;
+  height: 470px;
   margin-left: 5%;
 }
 
@@ -502,7 +518,7 @@ z-index: 1;
   }
 
   .splash-intro-text {
-    margin-top: 235px;
+    margin-top: 135px;
   }
 
   .row2 {
@@ -528,6 +544,10 @@ z-index: 1;
       font-size: 3em;
     }
   }
+
+  #location-photo {
+    height: 380px;
+  }
 }
 
 
@@ -546,7 +566,7 @@ z-index: 1;
   }
 
   .splash-intro-text {
-    margin-top: 175px;
+    margin-top: 160px;
     font-size: 52px;
   }
 

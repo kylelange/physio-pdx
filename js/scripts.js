@@ -77,27 +77,30 @@ $(document).ready(function(){
   //service DOM manip. for answers
   $("#serveQ1").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>TEXT HERE<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>Comprehensive, efficient evaluation, expert level treatment, and detailed education in practical approaches to self-management and prevention of movement or pain related conditions.  Have you tried PT before and not seen results, felt understood, or learned how to properly prevent your symptoms from returning? If so, give us a chance to show you what physical therapy has to offer you when delivered at the highest standard.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
+
   $("#serveQ2").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>TEXT HERE<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>Whether you’ve been in a recent or old car accident, have had headaches since you were a teenager, or have jaw pain, locking or clicking for years, Physio PDX has the knowledge and skill required to help you find relief from these more persistent conditions.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
+
   $("#serveQ3").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>TEXT HERE<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>Also known as TMJ, or temporomandibular disorders is a class of conditions that can cause severe impairments in a person’s ability to talk, chew, yawn, and breath comfortably. Dr. Stuhr is particularly interested in treating this population of patients and has received additional training in this area of practice through her fellowship program. Additionally, she teaches the orthopedic content related to TMD to students in Physical Therapy School and both Pacific University and George Fox University.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
+
   $("#serveQ4").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>TEXT HERE<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>If it’s been a while since you went to the gym and want to get back at it, or if you have a specific goal in mind you need help reaching, and have no idea how to start, come in and talk! Maybe you’ve never even been to a gym, but feel like it’s time to start; let us help you get there. This program is about providing you with a bridge between wherever you are now, and where you want to end up. Depending on your needs and wants, through our sessions we’ll provide you with the education about your body, movement, and appropriate fitness dosing to allow you safely achieve your fitness goals without fear or risk of injury. Come in let us help you find your way to feeling like the best version of yourself.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
   $("#serveQ5").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>TEXT HERE<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>This service is here to provide you with an opportunity to get answers. Maybe you are already working with another PT, and just want some feedback about what you are doing with treatment. Or maybe you are working with another provider that just wants a second set of hands and eyes on your condition. Come on in, bring your questions, and we’ll provide you with a thorough evaluation and feedback on what your next best steps may be.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
   $("#serveQ6").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>TEXT HERE<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>Did you trip and twist your knee coming down the stairs? Bent over to lift something and can’t stand back up? Woke up on the wrong side of the bed, and can’t turn your neck to check your blind spot? Big or small, new or old, if you are dealing with a condition you just want someone to check out and get some help with understanding or treating, come on in. We’ll evaluate you, teach you how to manage things yourself, and make some suggestions about what to do next, if additional treatment seems warranted. Physical therapy is not always the best first course of treatment. However, as musculoskeletal experts and doctors of our field, physical therapist are able to quickly, and effectively spot when a presentation is not within our scope or practice to treat. So, don’t worry, if your condition needs additional evaluation, we will know, and be able to recommend what next steps to take and where to seek additional care.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
 });
 

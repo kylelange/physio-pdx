@@ -58,7 +58,7 @@ ul {
 
 h1 {
   font-family: "capsuula", "Gill Sans", "Gill Sans MT", sans-serif;
-  font-size: 64px;
+  font-size: 60px;
   color: #1CD6C7; }
 
 h2 {
@@ -384,6 +384,8 @@ input {
     font-size: 1.3em; }
   .tile1 h6 {
     padding: 10px; }
+  .tile1 h1 {
+    padding: 10px; }
   .tile1 p {
     color: #fff;
     text-align: center;
@@ -402,6 +404,8 @@ input {
     font-size: 1.3em; }
   .tile2 h6 {
     padding: 10px; }
+  .tile2 h1 {
+    padding: 10px; }
 
 .tile3 {
   background-color: #1CD6C7;
@@ -417,7 +421,8 @@ input {
   .tile3 h6 {
     padding: 10px; }
   .tile3 h1 {
-    color: #fff; }
+    color: #fff;
+    padding: 10px; }
 
 .tile4 {
   background-color: #107c73;
@@ -433,10 +438,14 @@ input {
   .tile4 h6 {
     padding: 10px; }
   .tile4 h1 {
-    color: #fff; }
+    color: #fff;
+    padding: 10px; }
 
 .first-visit, .faq {
   width: 100%; }
+
+.row1-contact h1 {
+  padding-bottom: 250px; }
 
 /*Id Selectors***********************/
 #nav-logo {
@@ -449,7 +458,7 @@ input {
 
 #location-photo {
   width: 90%;
-  height: 380px;
+  height: 470px;
   margin-left: 5%; }
 
 #sarah-photo {
@@ -472,7 +481,7 @@ input {
     width: 100%; }
 
   .splash-intro-text {
-    margin-top: 235px; }
+    margin-top: 135px; }
 
   .row2 {
     margin-top: 55px; }
@@ -490,7 +499,10 @@ input {
     width: 205px; }
 
   .first-visit h1, .faq h1 {
-    font-size: 3em; } }
+    font-size: 3em; }
+
+  #location-photo {
+    height: 380px; } }
 /*tablet*/
 @media only screen and (max-width: 991px) {
   .navbar li {
@@ -503,7 +515,7 @@ input {
     object-fit: cover; }
 
   .splash-intro-text {
-    margin-top: 175px;
+    margin-top: 160px;
     font-size: 52px; }
 
   .row2 {
