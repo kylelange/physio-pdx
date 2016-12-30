@@ -352,6 +352,9 @@ input {
 .address-text:last-of-type {
   padding-bottom: 90px; }
 
+#facility p {
+  font-size: 1em; }
+
 .row2-patients {
   margin-top: 55px;
   background-color: #fff;
