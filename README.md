@@ -1,11 +1,16 @@
 # _Physio-PDX_
 
-#### _A non-framework design for a small physical-therapy business in Portland, OR. {Nov, 11th 2016.}_
-
-#### See it live [HERE](https://kylelange.github.io/physio-pdx/).
-_
+#### _A non-framework design for a small physical-therapy business in Portland, OR. {Jan 2nd 2016.}_
 
 #### By _**Kyle Lange**_
+
+#### See it live [HERE](https://kylelange.github.io/physio-pdx/).
+
+#### Then read the case study [HERE.](https://www.dropbox.com/s/nj1h9qlvt48gf2i/Lange-case-study-physiopdx.jpg?dl=0)
+
+![screenshot](case-study-physiopdx.jpg)
+
+#### Here is a screenshot:
 
 ![screenshot](Screen Shot.png)
 
