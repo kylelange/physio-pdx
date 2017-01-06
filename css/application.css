@@ -331,7 +331,7 @@ input {
   border: 3px solid #332D2D;
   border-radius: 14px;
   width: 75%;
-  height: auto;
+  height: 60px;
   background: transparent;
   margin-top: 100px;
   z-index: 1; }
