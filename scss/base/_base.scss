@@ -212,7 +212,7 @@ color: $heroBtn-color;
 letter-spacing: 0.4px;
 border: 3px solid $heroBtn-color;
 border-radius: 14px;
-width: 502px;
+width: 470px;
 height: 75px;
 background: transparent;
 margin-top: 100px;
@@ -263,9 +263,9 @@ z-index: 1;
 .services {
   font-family: $font-sec;
   font-size: 32px;
-  color: $btn-text;
+  color: $row3-bkgnd;
   letter-spacing: 0.5px;
-  background: $background-color;
+  background: $btn-text;
   border: 3px solid $row3-bkgnd;
   border-radius: 14px;
   width: 200px;
@@ -274,12 +274,12 @@ z-index: 1;
   @include hover-off($btn-text) {};
   &:hover {
     transition: #{$hover};
-    background: $sec-text-color;
+    background: $btn-text;
   }
 }
 
 .services a{
-  @include hover-off($btn-text) {};
+  @include hover-off($row3-bkgnd) {};
   text-decoration: none;
   &:hover {
     @extend %hover-on;
