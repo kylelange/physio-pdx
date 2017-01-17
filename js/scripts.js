@@ -120,6 +120,11 @@ $(document).ready(function(){
     $("#formAnswer").empty();
     $("<h6><a href='#forms'>FORM PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
   });
+
+  $("#form4").click(function(){
+    $("#formAnswer").empty();
+    $("<h6>TEXT HERE<h6>").hide().appendTo("#formAnswer").fadeIn(800);
+  });
 });
 
 //smooth scroll function

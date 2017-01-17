@@ -450,6 +450,8 @@ input {
   .tile4 h1, .tile4 a {
     color: #fff;
     padding: 10px; }
+  .tile4 h6 {
+    color: #fff; }
 
 .first-visit, .faq {
   width: 100%; }
