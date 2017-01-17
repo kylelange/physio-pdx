@@ -94,13 +94,31 @@ $(document).ready(function(){
     $("#serveAnswer").empty();
     $("<h6>If it’s been a while since you went to the gym and want to get back at it, or if you have a specific goal in mind you need help reaching, and have no idea how to start, come in and talk! Maybe you’ve never even been to a gym, but feel like it’s time to start; let us help you get there. This program is about providing you with a bridge between wherever you are now, and where you want to end up. Depending on your needs and wants, through our sessions we’ll provide you with the education about your body, movement, and appropriate fitness dosing to allow you safely achieve your fitness goals without fear or risk of injury. Come in let us help you find your way to feeling like the best version of yourself.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
+
   $("#serveQ5").click(function(){
     $("#serveAnswer").empty();
     $("<h6>This service is here to provide you with an opportunity to get answers. Maybe you are already working with another PT, and just want some feedback about what you are doing with treatment. Or maybe you are working with another provider that just wants a second set of hands and eyes on your condition. Come on in, bring your questions, and we’ll provide you with a thorough evaluation and feedback on what your next best steps may be.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
+
   $("#serveQ6").click(function(){
     $("#serveAnswer").empty();
     $("<h6>Did you trip and twist your knee coming down the stairs? Bent over to lift something and can’t stand back up? Woke up on the wrong side of the bed, and can’t turn your neck to check your blind spot? Big or small, new or old, if you are dealing with a condition you just want someone to check out and get some help with understanding or treating, come on in. We’ll evaluate you, teach you how to manage things yourself, and make some suggestions about what to do next, if additional treatment seems warranted. Physical therapy is not always the best first course of treatment. However, as musculoskeletal experts and doctors of our field, physical therapist are able to quickly, and effectively spot when a presentation is not within our scope or practice to treat. So, don’t worry, if your condition needs additional evaluation, we will know, and be able to recommend what next steps to take and where to seek additional care.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+  });
+
+  //Form link "answers"
+  $("#form1").click(function(){
+    $("#formAnswer").empty();
+    $("<h6><a href='#forms'>FORM PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+  });
+
+  $("#form2").click(function(){
+    $("#formAnswer").empty();
+    $("<h6><a href='#forms'>FORM PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+  });
+
+  $("#form3").click(function(){
+    $("#formAnswer").empty();
+    $("<h6><a href='#forms'>FORM PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 });
 

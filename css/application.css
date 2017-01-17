@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover, .tile1 p:hover {
+.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover, .tile1 p:hover, .tile2 p:hover {
   color: #16ab9f;
   text-decoration: none;
   transition: all 600ms ease-in-out; }
@@ -410,6 +410,12 @@ input {
     padding: 10px; }
   .tile2 h1 {
     padding: 10px; }
+  .tile2 p {
+    color: #fff;
+    text-align: center;
+    transition: all 600ms ease-in-out; }
+  .tile2 h6 {
+    color: #fff; }
 
 .tile3 {
   background-color: #1CD6C7;
@@ -441,7 +447,7 @@ input {
     font-size: 1.3em; }
   .tile4 h6 {
     padding: 10px; }
-  .tile4 h1 {
+  .tile4 h1, .tile4 a {
     color: #fff;
     padding: 10px; }
 

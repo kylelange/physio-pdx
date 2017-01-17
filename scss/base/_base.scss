@@ -452,6 +452,15 @@ z-index: 1;
   h1 {
     padding: 10px;
   }
+  p {
+    @include hover-off($btn-text) {};
+      &:hover {
+        @extend %hover-on;
+      }
+  }
+  h6 {
+    color: $h2-text;
+  }
 }
 
 .tile3 {
@@ -466,7 +475,7 @@ z-index: 1;
 .tile4 {
   @include tile(darken($turquoise, 20%)) {};
   width: 50%;
-  h1 {
+  h1, a {
     color: $h2-text;
     padding: 10px;
   }
