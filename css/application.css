@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .about-appt a:hover, .tile1 p:hover, .tile2 p:hover {
+.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .tile1 p:hover, .tile2 p:hover {
   color: #16ab9f;
   text-decoration: none;
   transition: all 600ms ease-in-out; }
@@ -274,7 +274,7 @@ input {
   background-color: #332D2D;
   padding: 35px; }
 
-.row3 li, p {
+.row3 li, .row3 p {
   font-family: "capsuula", "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 20px;
   color: #fff;
@@ -327,23 +327,10 @@ input {
     color: #332D2D;
     margin: 20px 0; }
 
-.about-appt {
-  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
-  font-size: 32px;
-  color: #332D2D;
-  letter-spacing: 0.4px;
-  border: 3px solid #332D2D;
-  border-radius: 14px;
-  width: 75%;
-  height: 60px;
-  background: transparent;
-  margin-top: 100px;
-  z-index: 1; }
-
-.about-appt a {
-  color: #332D2D;
-  text-align: center;
-  transition: all 600ms ease-in-out; }
+.triangle-bio {
+  border: 1px solid red;
+  padding: 20px;
+  height: 300px; }
 
 .address-text {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
@@ -461,7 +448,7 @@ input {
   width: 100%; }
 
 .row1-contact h1 {
-  padding-bottom: 250px; }
+  padding-bottom: 175px; }
 
 /*Id Selectors***********************/
 #nav-logo {
@@ -537,7 +524,7 @@ input {
     object-fit: cover; }
 
   .splash-intro-text {
-    margin-top: 160px;
+    margin-top: 100px;
     font-size: 52px; }
 
   .row2 {
