@@ -222,7 +222,7 @@ input {
 .row2 {
   margin-top: 120px;
   background-color: #fff;
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
@@ -320,8 +320,7 @@ input {
 
 .row2-aboutUS {
   margin-top: 42px;
-  background-color: #fff;
-  padding: 35px; }
+  background-color: #fff; }
   .row2-aboutUS:last-child h2 {
     margin: 5%; }
   .row2-aboutUS h2 {
@@ -392,7 +391,7 @@ input {
     padding: 10px;
     font-size: 1.3em; }
   .tile1 h6 {
-    padding: 10px; }
+    padding: 0 10px; }
   .tile1 h1 {
     padding: 10px; }
   .tile1 p {
@@ -412,7 +411,7 @@ input {
     padding: 10px;
     font-size: 1.3em; }
   .tile2 h6 {
-    padding: 10px; }
+    padding: 0 10px; }
   .tile2 h1 {
     padding: 10px; }
   .tile2 p {
@@ -434,7 +433,7 @@ input {
     padding: 10px;
     font-size: 1.3em; }
   .tile3 h6 {
-    padding: 10px; }
+    padding: 0 10px; }
   .tile3 h1 {
     color: #fff;
     padding: 10px; }
@@ -451,7 +450,7 @@ input {
     padding: 10px;
     font-size: 1.3em; }
   .tile4 h6 {
-    padding: 10px; }
+    padding: 0 10px; }
   .tile4 h1, .tile4 a {
     color: #fff;
     padding: 10px; }
@@ -486,6 +485,9 @@ input {
 /*Media Queries**********************/
 /*smaller desktops*/
 @media only screen and (max-width: 1200px) {
+  .container {
+    width: 90%; }
+
   .navbar li {
     padding-left: 8px;
     margin-left: 2%; }
@@ -522,6 +524,9 @@ input {
     height: 380px; } }
 /*tablet*/
 @media only screen and (max-width: 991px) {
+  .container {
+    width: 90%; }
+
   .navbar li {
     font-size: 1.2em;
     margin-left: 1%; }
@@ -560,6 +565,9 @@ input {
     text-align: center; } }
 /*mobile*/
 @media only screen and (max-width: 767px) {
+  .container {
+    width: 90%; }
+
   .navbar-default ul {
     background-color: #332D2D;
     margin-top: 29px;
@@ -567,11 +575,8 @@ input {
 
   .faq {
     flex-wrap: wrap; }
-    .faq .tile1 {
+    .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
       width: 100%;
-      height: 60vh; }
-    .faq .tile3 {
-      width: 100%;
-      height: 60vh; } }
+      height: 85vh; } }
 
 /*# sourceMappingURL=application.css.map */

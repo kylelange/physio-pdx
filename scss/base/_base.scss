@@ -91,7 +91,6 @@ input {
 
 .container {
   padding: 0;
-  //margin: 0;
 }
 .row {
   width: 100%;
@@ -247,7 +246,7 @@ z-index: 1;
 .row2 {
   margin-top: 120px;
   background-color: $row2-bkgnd;
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -363,7 +362,6 @@ margin-top: 30px;
 .row2-aboutUS {
   margin-top: 42px;
   background-color: $row2-bkgnd;
-  padding: 35px;
   &:last-child h2 {
     margin: 5%;
   }
@@ -528,6 +526,10 @@ z-index: 1;
 /*Media Queries**********************/
 /*smaller desktops*/
 @media only screen and (max-width:1200px) {
+  .container {
+    width: 90%;
+  }
+
   .navbar li {
     padding-left: 8px;
     margin-left: 2%;
@@ -579,6 +581,10 @@ z-index: 1;
 
 /*tablet*/
 @media only screen and (max-width:991px) {
+  .container {
+    width: 90%;
+  }
+
   .navbar li {
     font-size: 1.2em;
     margin-left: 1%;
@@ -626,6 +632,9 @@ z-index: 1;
 
 /*mobile*/
 @media only screen and (max-width:767px) {
+  .container {
+    width: 90%;
+  }
   .navbar-default ul {
     background-color: $nav-mobile-bkgrnd;
     margin-top: 29px;
@@ -634,13 +643,9 @@ z-index: 1;
 
   .faq {
    flex-wrap: wrap;
-   .tile1 {
+   .tile1, .tile2, .tile3, .tile4 {
      width: 100%;
-     height: 60vh;
-   }
-   .tile3 {
-     width: 100%;
-     height: 60vh;
+     height: 85vh;
    }
   }
 }
