@@ -306,12 +306,18 @@ z-index: 1;
   padding: 35px;
 }
 
-.row3 li {
+.row3 li, p {
   font-family: $font-main;
   font-size: 20px;
   color: $li-a-text;
   letter-spacing: 0.31px;
   padding: 15px;
+  text-align: center;
+}
+
+.row3 h2 {
+  padding: 10px;
+  text-align: center;
 }
 
 .row3 a{
@@ -609,7 +615,7 @@ z-index: 1;
     margin-bottom: 20px;
   }
 
-  col-md-3 ul {
+  .col-md-3 ul {
     margin: auto 0;
   }
 

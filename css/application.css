@@ -274,12 +274,17 @@ input {
   background-color: #332D2D;
   padding: 35px; }
 
-.row3 li {
+.row3 li, p {
   font-family: "capsuula", "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 20px;
   color: #fff;
   letter-spacing: 0.31px;
-  padding: 15px; }
+  padding: 15px;
+  text-align: center; }
+
+.row3 h2 {
+  padding: 10px;
+  text-align: center; }
 
 .row3 a {
   color: #fff;
@@ -548,7 +553,7 @@ input {
     margin-top: 20px;
     margin-bottom: 20px; }
 
-  col-md-3 ul {
+  .col-md-3 ul {
     margin: auto 0; }
 
   .col-md-3 li {
