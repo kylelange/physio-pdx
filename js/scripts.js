@@ -90,22 +90,6 @@ $(document).ready(function(){
     $("<p>She endeavors to improve other healthcare and fitness based clinician’s understanding of the field of Physical Therapy. She often spends time building relationships across disciplines that allow her to educate providers about physical therapy’s role in movement and general wellness of their patients. <br>Dr. Stuhr recently served as the Chair of the Continuing Education Committee for the <a href='http://www.opta.org/'> Oregon Physical Therapy Association</a>, the state branch of the national organization, the American Physical Therapy Association.</p>").hide().appendTo("#triAnswer").fadeIn(800);
   });
 
-  //hidden BIO window
-  $("#tri-clinical").click(function(){
-    $("#triAnswer1").empty();
-    $("<p>Sarah H. Stuhr, PT, DPT, FAAOMPT, is a graduate of University of Colorado Denver Doctor of Physical Therapy program.  She then gained extensive training in orthopedic manual physical therapy at the University of Illinois in Chicago (UIC.) This training allowed her to become a Fellow of the American Academy of Orthopedic Manual Physical Therapy. <br>Dr. Stuhr began practicing in 2009. In addition to general orthopedic conditions, her practice, Physio PDX, specializes in the care of patients with complex musculoskeletal conditions, persistent pain, and patients with temporomandibular dysfunction (TMD), traditionally know as 'TMJ'.</p>").hide().appendTo("#triAnswer1").fadeIn(800);
-  });
-
-  $("#tri-education").click(function(){
-    $("#triAnswer1").empty();
-    $("<p>Dr. Stuhr serves as Adjunct Faculty at Pacific University’s Doctor of Physical Therapy program assisting in both Orthopedics and Anatomy classes. Additionally, she serves as a clinical instructor for physical therapy students training in the field. As a patient at Physio PDX, you may encounter a student being supervised and trained by Dr. Stuhr as part of your care.  Your wellbeing as always priority as part of this process, and Dr. Stuhr is still the primary provider regardless of the student’s involvement in your care. <br>Dr. Stuhr has been published in the international peer-reviewed academic journal, Journal of Manual and Manipulative Therapy (JMMT), and reviews grant proposals as a Research Committee member for AAOMPT. She also lectures on a variety of topics, though primarily highlighting assessment and treatment of temporomandibular dysfunction (TMD.)</p>").hide().appendTo("#triAnswer1").fadeIn(800);
-  });
-
-  $("#tri-advocate").click(function(){
-    $("#triAnswer1").empty();
-    $("<p>She endeavors to improve other healthcare and fitness based clinician’s understanding of the field of Physical Therapy. She often spends time building relationships across disciplines that allow her to educate providers about physical therapy’s role in movement and general wellness of their patients. <br>Dr. Stuhr recently served as the Chair of the Continuing Education Committee for the <a href='http://www.opta.org/'> Oregon Physical Therapy Association</a>, the state branch of the national organization, the American Physical Therapy Association.</p>").hide().appendTo("#triAnswer1").fadeIn(800);
-  });
-
   //service DOM manip. for answers
   $("#serveQ1").click(function(){
     $("#serveAnswer").empty();
