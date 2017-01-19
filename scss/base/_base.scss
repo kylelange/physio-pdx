@@ -375,6 +375,7 @@ margin-top: 30px;
   position: relative;
   border: 1px solid red;
   padding: 20px;
+  width: 45%;
   height: 465px;
   #tri-clinical {
     position: absolute;
@@ -411,21 +412,21 @@ margin-top: 30px;
   }
 }
 
-.triangle-answers1 {
-  position: absolute;
-  top: 0;
-  left: 475px;
-  border: 1px solid blue;
-  padding: 20px;
-  width: 465px;
-  height: 463px;
-  //display: none;
-}
+// .triangle-answers1 {
+//   position: absolute;
+//   top: 0;
+//   left: 475px;
+//   border: 1px solid blue;
+//   padding: 20px;
+//   width: 45%;
+//   height: auto;
+//   display: none;
+// }
 
 .triangle-answers {
   border: 1px solid blue;
   padding: 20px;
-  width: 465px;
+  width: 45%;
   height: 465px;
 }
 
@@ -614,8 +615,6 @@ margin-top: 30px;
     height: 380px;
   }
 }
-
-
 
 /*tablet*/
 @media only screen and (max-width:991px) {
