@@ -4,7 +4,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .tile1 p:hover, .tile2 p:hover {
+.navbar a:hover, .navbar a .navbar li, #menu-li a:hover, .appointment a:hover, .services a:hover, .row3 a:hover, .submit:hover, .triangle-bio #tri-clinical:hover, .triangle-bio #tri-education:hover, .triangle-bio #tri-advocate:hover, .tile1 p:hover, .tile2 p:hover {
   color: #16ab9f;
   text-decoration: none;
   transition: all 600ms ease-in-out; }
@@ -328,9 +328,46 @@ input {
     margin: 20px 0; }
 
 .triangle-bio {
+  position: relative;
   border: 1px solid red;
   padding: 20px;
-  height: 300px; }
+  height: 465px; }
+  .triangle-bio #tri-clinical {
+    position: absolute;
+    top: 0px;
+    left: 154px;
+    color: #fff;
+    text-align: center;
+    transition: all 600ms ease-in-out; }
+    .triangle-bio #tri-clinical:hover {
+      transform: scale(1.2);
+      z-index: 1; }
+  .triangle-bio #tri-education {
+    position: absolute;
+    top: 234px;
+    left: 19px;
+    color: #fff;
+    text-align: center;
+    transition: all 600ms ease-in-out; }
+    .triangle-bio #tri-education:hover {
+      transform: scale(1.2);
+      z-index: 1; }
+  .triangle-bio #tri-advocate {
+    position: absolute;
+    top: 234px;
+    left: 212px;
+    color: #fff;
+    text-align: center;
+    transition: all 600ms ease-in-out; }
+    .triangle-bio #tri-advocate:hover {
+      transform: scale(1.2);
+      z-index: 1; }
+
+.triangle-answers {
+  border: 1px solid blue;
+  padding: 20px;
+  width: 465px;
+  height: 465px; }
 
 .address-text {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
@@ -342,7 +379,7 @@ input {
   padding-top: 40px; }
 
 .address-text:last-of-type {
-  padding-bottom: 90px; }
+  padding-bottom: 50px; }
 
 #facility p {
   font-size: 1em; }

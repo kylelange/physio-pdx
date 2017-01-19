@@ -372,10 +372,52 @@ margin-top: 30px;
 }
 
 .triangle-bio {
+  position: relative;
   border: 1px solid red;
   padding: 20px;
-  height: 300px;
+  height: 465px;
+  #tri-clinical {
+    position: absolute;
+    top: 0px;
+    left: 154px;
+    @include hover-off($li-a-text) {};
+    &:hover {
+      @extend %hover-on;
+      transform: #{$scale};
+      z-index: 1;
+    }
+  }
+  #tri-education {
+    position: absolute;
+    top: 234px;
+    left: 19px;
+    @include hover-off($li-a-text) {};
+    &:hover {
+      @extend %hover-on;
+      transform: #{$scale};
+      z-index: 1;
+    }
+  }
+  #tri-advocate {
+    position: absolute;
+    top: 234px;
+    left: 212px;
+    @include hover-off($li-a-text) {};
+    &:hover {
+      @extend %hover-on;
+      transform: #{$scale};
+      z-index: 1;
+    }
+  }
 }
+
+.triangle-answers {
+  border: 1px solid blue;
+  padding: 20px;
+  width: 465px;
+  height: 465px;
+}
+
 
 .address-text {
   font-family: $font-sec;
@@ -388,7 +430,7 @@ margin-top: 30px;
   padding-top: 40px;
 }
 .address-text:last-of-type  {
-  padding-bottom: 90px;
+  padding-bottom: 50px;
 }
 
 #facility {

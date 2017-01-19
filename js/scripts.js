@@ -74,6 +74,22 @@ $(document).ready(function(){
     $("<h6>The number of visits, length of each visit and how frequently they happen is always negotiable, based on your treatment needs, time constraints, and financial preference. On average, follow-up session are an hour long, and most conditions are well managed by 5-8 visits. My goal is to see you improve and become capable of maintaining your rehabilitation gains independently. If that isn’t happening, I need to reconsider whether PT is the best course of action in treating your condition, or I need to re-evaluate your condition and change our treatment approach to improve outcomes. I will not advocate for you to continue seeing me if you are not seeing or feeling significant objective progress in 3-4 sessions, max.</h6>").hide().appendTo("#faqAnswer").fadeIn(800);
   });
 
+  //Bio answers
+  $("#tri-clinical").click(function(){
+    $("#triAnswer").empty();
+    $("<p>TEST</p>").hide().appendTo("#triAnswer").fadeIn(800);
+  });
+
+  $("#tri-education").click(function(){
+    $("#triAnswer").empty();
+    $("<p>TEST2</p>").hide().appendTo("#triAnswer").fadeIn(800);
+  });
+
+  $("#tri-advocate").click(function(){
+    $("#triAnswer").empty();
+    $("<p>TEST3</p>").hide().appendTo("#triAnswer").fadeIn(800);
+  });
+
   //service DOM manip. for answers
   $("#serveQ1").click(function(){
     $("#serveAnswer").empty();
