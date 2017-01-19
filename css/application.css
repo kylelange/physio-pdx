@@ -363,6 +363,15 @@ input {
       transform: scale(1.2);
       z-index: 1; }
 
+.triangle-answers1 {
+  position: absolute;
+  top: 0;
+  left: 475px;
+  border: 1px solid blue;
+  padding: 20px;
+  width: 465px;
+  height: 463px; }
+
 .triangle-answers {
   border: 1px solid blue;
   padding: 20px;
