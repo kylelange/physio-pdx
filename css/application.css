@@ -328,15 +328,15 @@ input {
     margin: 20px 0; }
 
 .triangle-bio {
-  position: relative;
   border: 1px solid red;
+  position: relative;
   padding: 20px;
   width: 45%;
   height: 465px; }
   .triangle-bio #tri-clinical {
     position: absolute;
     top: 0px;
-    left: 154px;
+    left: 155px;
     color: #fff;
     text-align: center;
     transition: all 600ms ease-in-out; }
@@ -346,7 +346,7 @@ input {
   .triangle-bio #tri-education {
     position: absolute;
     top: 234px;
-    left: 19px;
+    left: 20px;
     color: #fff;
     text-align: center;
     transition: all 600ms ease-in-out; }
@@ -356,7 +356,7 @@ input {
   .triangle-bio #tri-advocate {
     position: absolute;
     top: 234px;
-    left: 212px;
+    left: 213px;
     color: #fff;
     text-align: center;
     transition: all 600ms ease-in-out; }
@@ -365,7 +365,6 @@ input {
       z-index: 1; }
 
 .triangle-answers {
-  border: 1px solid blue;
   padding: 20px;
   padding-right: 0;
   width: 45%;
@@ -588,7 +587,28 @@ input {
     margin: auto 0; }
 
   .col-md-3 li {
-    text-align: center; } }
+    text-align: center; }
+
+  .triangle-bio {
+    padding: 20px 0; }
+    .triangle-bio #tri-clinical {
+      transform: scale(0.8, 0.8);
+      top: 15px;
+      left: 95px; }
+      .triangle-bio #tri-clinical:hover {
+        transform: scale(0.9, 0.9); }
+    .triangle-bio #tri-education {
+      transform: scale(0.8, 0.8);
+      top: 213px;
+      left: -20px; }
+      .triangle-bio #tri-education:hover {
+        transform: scale(0.9, 0.9); }
+    .triangle-bio #tri-advocate {
+      transform: scale(0.8, 0.8);
+      top: 213px;
+      left: 128px; }
+      .triangle-bio #tri-advocate:hover {
+        transform: scale(0.9, 0.9); } }
 /*mobile*/
 @media only screen and (max-width: 767px) {
   .container {
@@ -603,6 +623,27 @@ input {
     flex-wrap: wrap; }
     .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
       width: 100%;
-      height: 85vh; } }
+      height: 85vh; }
+
+  .triangle-bio {
+    height: 390px; }
+    .triangle-bio #tri-clinical {
+      transform: scale(0.7, 0.7);
+      top: 20px;
+      left: 95px; }
+      .triangle-bio #tri-clinical:hover {
+        transform: scale(0.8, 0.8); }
+    .triangle-bio #tri-education {
+      transform: scale(0.7, 0.7);
+      top: 198px;
+      left: -10px; }
+      .triangle-bio #tri-education:hover {
+        transform: scale(0.8, 0.8); }
+    .triangle-bio #tri-advocate {
+      transform: scale(0.7, 0.7);
+      top: 198px;
+      left: 115px; }
+      .triangle-bio #tri-advocate:hover {
+        transform: scale(0.8, 0.8); } }
 
 /*# sourceMappingURL=application.css.map */
