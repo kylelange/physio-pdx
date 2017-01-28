@@ -82,7 +82,7 @@ $(document).ready(function(){
 
   $("#tri-education").click(function(){
     $("#triAnswer").empty();
-    $("<p>Dr. Stuhr serves as Adjunct Faculty at Pacific University, assisting in both Orthopedics and Anatomy classes. She also serves as a clinical instructor for physical therapy students training in the field. As a patient at Physio PDX, you may encounter a student being trained by Dr. Stuhr as part of your care. However, Dr. Stuhr will always the primary provider.<br><br>Dr. Stuhr has been published in the Journal of Manual and Manipulative Therapy (JMMT), and reviews grant proposals as a Research Committee member for AAOMPT. She also lectures on a variety of topics, though primarily highlighting assessment and treatment of temporomandibular dysfunction (TMD.)</p>").hide().appendTo("#triAnswer").fadeIn(800);
+    $("<p>Dr. Stuhr serves as Adjunct Faculty at Pacific University, assisting in both Orthopedics and Anatomy classes. She also serves as a clinical instructor for physical therapy students training in the field. As a patient at Physio PDX, you may encounter a student being trained by Dr. Stuhr as part of your care. However, Dr. Stuhr will always be the primary provider.<br><br>Dr. Stuhr has been published in the Journal of Manual and Manipulative Therapy (JMMT), and reviews grant proposals as a Research Committee member for AAOMPT. She also lectures on a variety of topics, though primarily highlighting assessment and treatment of temporomandibular dysfunction (TMD.)</p>").hide().appendTo("#triAnswer").fadeIn(800);
   });
 
   $("#tri-advocate").click(function(){
