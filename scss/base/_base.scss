@@ -144,7 +144,7 @@ input {
 }
 .navbar li {
   color: $li-a-text;
-  padding: 15px;
+  padding: 14px;
   font-size: 1.8em;
   transition: #{$hover};
   margin-left: 3%;
@@ -167,6 +167,10 @@ input {
     @extend %hover-on;
     transform: #{$scale};
   }
+}
+
+.navbar-nav>li>a {
+  line-height: 25px;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -233,6 +237,10 @@ z-index: 1;
   z-index: 0;
 }
 
+.contact-intro-text {
+  margin-top: 104px;
+}
+
 .splash-photo {
   -webkit-filter: brightness(60%);
   filter: brightness(60%);
@@ -241,6 +249,11 @@ z-index: 1;
   width: 100%;
   z-index: -2;
   position: absolute;
+}
+
+.contact-photo {
+  height: 450px;
+  object-fit: cover;
 }
 
 .row2 {
@@ -532,6 +545,7 @@ margin-top: 30px;
   height: 75px;
   width: 220px;
   margin-right: 10%;
+  margin-top: 5px;
 }
 
 #comment-input {
@@ -575,6 +589,10 @@ margin-top: 30px;
     margin-top: 135px;
   }
 
+  .contact-intro-text {
+    margin-top: 104px;
+  }
+
   .row2 {
     margin-top: 55px;
   }
@@ -590,6 +608,7 @@ margin-top: 30px;
   }
 
   #nav-logo {
+    margin-top: 7px;
     height: 70px;
     width: 205px;
   }
@@ -611,7 +630,7 @@ margin-top: 30px;
   }
 
   .navbar li {
-    font-size: 1.2em;
+    font-size: 1.05em;
     margin-left: 1%;
   }
 
