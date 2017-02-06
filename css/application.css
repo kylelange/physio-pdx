@@ -133,7 +133,7 @@ input {
   width: 100%;
   z-index: 1;
   margin-top: -2px;
-  margin-left: -20px;
+  margin-left: -15px;
   position: absolute; }
 
 .navbar li {
@@ -615,8 +615,8 @@ input {
 
   .navbar-default ul {
     background-color: #332D2D;
-    margin-top: 29px;
-    width: 101%; }
+    margin-top: 0;
+    width: 100%; }
 
   .faq {
     flex-wrap: wrap; }

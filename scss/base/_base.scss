@@ -139,7 +139,7 @@ input {
   width: 100%;
   z-index: 1;
   margin-top: -2px;
-  margin-left: -20px;
+  margin-left: -15px;
   position: absolute;
 }
 .navbar li {
@@ -690,8 +690,8 @@ margin-top: 30px;
   }
   .navbar-default ul {
     background-color: $nav-mobile-bkgrnd;
-    margin-top: 29px;
-    width: 101%;
+    margin-top: 0;
+    width: 100%;
   }
 
   .faq {
