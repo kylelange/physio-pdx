@@ -124,17 +124,17 @@ $(document).ready(function(){
   //Form link "answers"
   $("#form1").click(function(){
     $("#formAnswer").empty();
-    $("<h6><a href='#forms'>FORM PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("<h6><a href='#forms'>FORM 1 PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 
   $("#form2").click(function(){
     $("#formAnswer").empty();
-    $("<h6><a href='#forms'>FORM PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("<h6><a href='#forms'>FORM 2 PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 
   $("#form3").click(function(){
     $("#formAnswer").empty();
-    $("<h6><a href='#forms'>FORM PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("<h6><a href='#forms'>FORM 3 PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 
   $("#form4").click(function(){
