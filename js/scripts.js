@@ -124,22 +124,22 @@ $(document).ready(function(){
   //Form link "answers"
   $("#form1").click(function(){
     $("#formAnswer").empty();
-    $("<h6><a href='./forms/patient-intake.pdf' target='_blank'>Patient Intake form PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("<a href='./forms/patient-intake.pdf' target='_blank'><img src='img/intake.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 
   $("#form2").click(function(){
     $("#formAnswer").empty();
-    $("<h6><a href='#forms'>Cancellation form PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("<a href='./forms/cancellation.pdf' target='_blank'><img src='img/cancellation.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 
   $("#form3").click(function(){
     $("#formAnswer").empty();
-    $("<h6><a href='#forms'>Informed consent form PDF download link HERE</a><h6>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("<a href='./forms/inf-consent.pdf' target='_blank'><img src='img/consent.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 
   $("#form4").click(function(){
     $("#formAnswer").empty();
-    $("<h6> Insurance forms <h6>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("<a href='./forms/ins-benefits.pdf' target='_blank'><img src='img/benefits.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
   });
 });
 
