@@ -447,10 +447,14 @@ margin-top: 30px;
 }
 
 .tile4 {
+  // background-image: url('../img/office1.jpg');
+  // background-size: cover;
+  // background-position: center;
   img {
-    padding: 70px 10px;
-    max-width: 560px;
+    max-width: 90%;
     max-height: auto;
+    margin-left: 5%;
+    margin-top: 20%;
   }
 }
 

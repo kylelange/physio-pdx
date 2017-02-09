@@ -392,9 +392,10 @@ input {
   padding-bottom: 50px; }
 
 .tile4 img {
-  padding: 70px 10px;
-  max-width: 560px;
-  max-height: auto; }
+  max-width: 90%;
+  max-height: auto;
+  margin-left: 5%;
+  margin-top: 20%; }
 
 #facility p {
   font-size: 1em; }
