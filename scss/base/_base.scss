@@ -147,7 +147,7 @@ input {
   padding: 14px;
   font-size: 1.8em;
   transition: #{$hover};
-  margin-left: 3%;
+  margin-left: 9%;
   &:first-child {
     padding: 0;
   }
@@ -446,6 +446,14 @@ margin-top: 30px;
   padding-bottom: 50px;
 }
 
+.tile4 {
+  img {
+    padding: 70px 10px;
+    max-width: 560px;
+    max-height: auto;
+  }
+}
+
 #facility {
   p {
     font-size: 1em;
@@ -581,7 +589,7 @@ margin-top: 30px;
 
   .navbar li {
     padding-left: 8px;
-    margin-left: 2%;
+    margin-left: 6%;
   }
 
   .navbar a {
@@ -639,7 +647,7 @@ margin-top: 30px;
 
   .navbar li {
     font-size: 1.05em;
-    margin-left: 1%;
+    margin-left: 5%;
   }
 
   .splash-photo {
