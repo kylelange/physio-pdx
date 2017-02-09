@@ -98,17 +98,17 @@ $(document).ready(function(){
 
   $("#serveQ2").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>Whether you’ve been in a recent or old car accident, have had headaches since you were a teenager, or have jaw pain, locking or clicking for years, Physio PDX has the knowledge and skill required to help you find relief from these more persistent conditions.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>Also known as TMJ, or temporomandibular disorders is a class of conditions that can cause severe impairments in a person’s ability to talk, chew, yawn, and breath comfortably. Dr. Stuhr is particularly interested in treating this population of patients and has received additional training in this area of practice through her fellowship program. Additionally, she teaches the orthopedic content related to TMD to students in Physical Therapy School and both Pacific University and George Fox University.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
 
   $("#serveQ3").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>Also known as TMJ, or temporomandibular disorders is a class of conditions that can cause severe impairments in a person’s ability to talk, chew, yawn, and breath comfortably. Dr. Stuhr is particularly interested in treating this population of patients and has received additional training in this area of practice through her fellowship program. Additionally, she teaches the orthopedic content related to TMD to students in Physical Therapy School and both Pacific University and George Fox University.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>Whether you’ve been in a recent or old car accident, have had headaches since you were a teenager, or have jaw pain, locking or clicking for years, Physio PDX has the knowledge and skill required to help you find relief from these more persistent conditions.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
 
   $("#serveQ4").click(function(){
     $("#serveAnswer").empty();
-    $("<h6>If it’s been a while since you went to the gym and want to get back at it, or if you have a specific goal in mind you need help reaching, and have no idea how to start, come in and talk! Maybe you’ve never even been to a gym, but feel like it’s time to start; let us help you get there. This program is about providing you with a bridge between wherever you are now, and where you want to end up. Depending on your needs and wants, through our sessions we’ll provide you with the education about your body, movement, and appropriate fitness dosing to allow you safely achieve your fitness goals without fear or risk of injury. Come in let us help you find your way to feeling like the best version of yourself.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
+    $("<h6>If it’s been a while since you went to the gym and you want to get back at it, or if you have a specific goal in mind you need help reaching, and have no idea how to start, come in and talk! Maybe you’ve never even been to a gym, but feel like it’s time to start; let us help you get there. This program is about providing you with a bridge between wherever you are now, and where you want to end up. Depending on your needs and wants, through our sessions we’ll provide you with the education about your body, movement, and appropriate fitness dosing to allow you safely achieve your fitness goals without fear or risk of injury. Come in and let us help you find your way to feeling like the best version of yourself.<h6>").hide().appendTo("#serveAnswer").fadeIn(800);
   });
 
   $("#serveQ5").click(function(){
