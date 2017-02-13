@@ -89,6 +89,9 @@ input {
   letter-spacing: 0.31px; }
 
 /*Class Selectors********************/
+.dropdown-backdrop {
+  position: static; }
+
 .container {
   padding: 0; }
 
@@ -131,7 +134,7 @@ input {
 
 .navbar-default ul {
   width: 100%;
-  z-index: 2;
+  z-index: 1;
   margin-top: -2px;
   margin-left: -15px;
   position: absolute; }
@@ -191,12 +194,12 @@ input {
 /*appt button*/
 .appointment {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
-  font-size: 33px;
+  font-size: 34px;
   color: #fff;
   letter-spacing: 0.4px;
   border: 3px solid #fff;
   border-radius: 14px;
-  width: 470px;
+  width: 480px;
   height: 75px;
   background: transparent;
   margin-top: 100px;
@@ -238,7 +241,7 @@ input {
   justify-content: center; }
   .row2 p {
     padding-bottom: 50px;
-    max-width: 700px;
+    max-width: 810px;
     margin: 0 auto; }
 
 /*Services button*/
@@ -294,7 +297,8 @@ input {
 
 .row3 h2 {
   padding: 10px;
-  text-align: center; }
+  text-align: center;
+  font-size: 22px; }
 
 .row3 a {
   color: #fff;
@@ -340,7 +344,6 @@ input {
 .triangle-bio {
   position: relative;
   padding: 20px;
-  cursor: pointer;
   width: 45%;
   height: 465px; }
   .triangle-bio #tri-clinical {
@@ -596,8 +599,8 @@ input {
 
   .appointment {
     margin-top: 60px;
-    font-size: 30px;
-    width: 300px;
+    font-size: 28px;
+    width: 310px;
     height: 60px; }
 
   .carousel-caption {
@@ -638,7 +641,7 @@ input {
 /*mobile*/
 @media only screen and (max-width: 767px) {
   .container {
-    width: 90%; }
+    width: 95%; }
 
   .navbar-default ul {
     background-color: #332D2D;
@@ -649,7 +652,7 @@ input {
     flex-wrap: wrap; }
     .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
       width: 100%;
-      height: 85vh; }
+      height: 500px; }
 
   .triangle-bio {
     height: 390px; }
