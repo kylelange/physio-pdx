@@ -390,7 +390,8 @@ input {
   text-align: center; }
 
 .address-text:first-of-type {
-  padding-top: 40px; }
+  padding-top: 40px;
+  font-weight: bold; }
 
 .address-text:last-of-type {
   padding-bottom: 50px; }
@@ -399,7 +400,7 @@ input {
   max-width: 90%;
   max-height: auto;
   margin-left: 5%;
-  margin-top: 20%; }
+  margin-top: 1%; }
 
 #facility p {
   font-size: 1em; }
@@ -500,6 +501,9 @@ input {
     padding: 10px; }
   .tile4 h6 {
     color: #fff; }
+
+.faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
+  height: 500px; }
 
 .first-visit, .faq {
   width: 100%; }
@@ -617,6 +621,9 @@ input {
 
   .col-md-3 li {
     text-align: center; }
+
+  .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
+    height: 520px; }
 
   .triangle-bio {
     padding: 20px 0; }

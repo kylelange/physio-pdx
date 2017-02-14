@@ -445,6 +445,7 @@ margin-top: 30px;
 
 .address-text:first-of-type {
   padding-top: 40px;
+  font-weight: bold;
 }
 .address-text:last-of-type  {
   padding-bottom: 50px;
@@ -458,7 +459,7 @@ margin-top: 30px;
     max-width: 90%;
     max-height: auto;
     margin-left: 5%;
-    margin-top: 20%;
+    margin-top: 1%;
   }
 }
 
@@ -541,6 +542,12 @@ margin-top: 30px;
   }
   h6 {
     color: $h2-text;
+  }
+}
+
+.faq {
+  .tile1, .tile2, .tile3, .tile4 {
+    height: 500px;
   }
 }
 
@@ -695,6 +702,12 @@ margin-top: 30px;
 
   .col-md-3 li {
     text-align: center;
+  }
+
+  .faq {
+    .tile1, .tile2, .tile3, .tile4 {
+      height: 520px;
+    }
   }
 
   .triangle-bio {
