@@ -159,8 +159,18 @@ $(function() {
   });
 });
 
-//iOS 5/6 mobile attempt
+//iOS 5/6 mobile fix attempt
 
 $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) {
     e.stopPropagation();
 });
+
+$('body')
+.on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); })
+.on('touchstart.dropdown', '.dropdown-submenu', function (e) { e.preventDefault(); });
+
+jQuery(document).ready( function (){
+    jQuery('.dropdown-toggle')
+        .on('touchstart.dropdown', '.dropdown-menu', function (e) { e.stopPropagation(); })
+        .on('touchstart.dropdown', '.dropdown-submenu', function (e) { e.preventDefault(); })
+    })
