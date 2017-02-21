@@ -2,8 +2,6 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -101,7 +99,7 @@ input {
   padding: 0;
 }
 
-// css bootstrap default nav fixes
+/* css bootstrap default nav fixes*/
 .navbar-default {
   background-color: $opacity;
   border: none;
@@ -112,7 +110,7 @@ input {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: $hover-color;
-  //background-color: transparent;
+  /*background-color: transparent;*/
 }
 .navbar-default .navbar-text {
   color: $li-a-text;
@@ -131,7 +129,7 @@ input {
     background-color: $clear;
 }
 
-//bespoke navbar styles
+/*bespoke navbar styles*/
 .navbar, .navbar-default {
   border-radius: 0px;
   background-color: $opacity;
@@ -149,6 +147,7 @@ input {
   color: $li-a-text;
   padding: 14px;
   font-size: 1.8em;
+  -webkit-transition: #{$hover};
   transition: #{$hover};
   margin-left: 9%;
   &:first-child {
@@ -168,7 +167,8 @@ input {
   @include hover-off($li-a-text) {};
   &:hover, .navbar li {
     @extend %hover-on;
-    transform: #{$scale};
+    -webkit-transform: #{$scale};
+            transform: #{$scale};
   }
 }
 
@@ -202,7 +202,8 @@ input {
     &:hover {
       background-color: $opacity;
       @extend %hover-on;
-      transform: none !important;
+      -webkit-transform: none !important;
+              transform: none !important;
     }
   }
   a:last-child {
@@ -256,16 +257,22 @@ z-index: 1;
 
 .contact-photo {
   height: 450px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .row2 {
   margin-top: 120px;
   background-color: $row2-bkgnd;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   p {
     padding-bottom: 50px;
     max-width: 810px;
@@ -288,6 +295,7 @@ z-index: 1;
   margin-bottom: 50px;
   @include hover-off($btn-text) {};
   &:hover {
+    -webkit-transition: #{$hover};
     transition: #{$hover};
     background: $btn-text;
   }
@@ -305,7 +313,8 @@ z-index: 1;
 /*Photo carousel*/
 .carousel-caption {
     top: 85% !important;
-    transform: translateY(-15%);
+    -webkit-transform: translateY(-15%);
+            transform: translateY(-15%);
 }
 
 .carousel-caption p {
@@ -344,10 +353,18 @@ z-index: 1;
 }
 
 .col-md-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*Submit Button*/
@@ -357,7 +374,7 @@ border: 3px solid $btn-text;
 border-radius: 14px;
 font-family: $font-sec;
 font-size: 32px;
-//color: $btn-text;
+/*color: $btn-text;*/
 letter-spacing: 0.5px;
 width: 220px;
 margin-top: 30px;
@@ -375,7 +392,7 @@ margin-top: 30px;
   padding-top: 10px;
 }
 
-//about us page styling
+/*about us page styling*/
 .row2-aboutUS {
   margin-top: 42px;
   background-color: $row2-bkgnd;
@@ -400,7 +417,8 @@ margin-top: 30px;
     @include hover-off($li-a-text) {};
     &:hover {
       @extend %hover-on;
-      transform: #{$scale};
+      -webkit-transform: #{$scale};
+              transform: #{$scale};
       z-index: 1;
     }
   }
@@ -411,7 +429,8 @@ margin-top: 30px;
     @include hover-off($li-a-text) {};
     &:hover {
       @extend %hover-on;
-      transform: #{$scale};
+      -webkit-transform: #{$scale};
+              transform: #{$scale};
       z-index: 1;
     }
   }
@@ -422,7 +441,8 @@ margin-top: 30px;
     @include hover-off($li-a-text) {};
     &:hover {
       @extend %hover-on;
-      transform: #{$scale};
+      -webkit-transform: #{$scale};
+              transform: #{$scale};
       z-index: 1;
     }
   }
@@ -452,9 +472,9 @@ margin-top: 30px;
 }
 
 .tile4 {
-  // background-image: url('../img/office1.jpg');
-  // background-size: cover;
-  // background-position: center;
+  /* background-image: url('../img/office1.jpg');*/
+  /* background-size: cover;*/
+  /* background-position: center;*/
   img {
     max-width: 90%;
     max-height: auto;
@@ -469,14 +489,19 @@ margin-top: 30px;
   }
 }
 
-// patients.html page styling
+/* patients.html page styling*/
 .row2-patients {
   margin-top: 55px;
   background-color: $row2-bkgnd;
   padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   p {
     padding-bottom: 50px;
     max-width: 700px;
@@ -490,8 +515,13 @@ margin-top: 30px;
 }
 
 .faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 .tile1 {
   @include tile($chocolate, $h2-text) {};
@@ -555,7 +585,7 @@ margin-top: 30px;
   width: 100%;
 }
 
-//contacts styling
+/*contacts styling*/
 
 .row1-contact {
   h1 {
@@ -568,7 +598,7 @@ margin-top: 30px;
   height: 75px;
   width: 220px;
   margin-right: 10%;
-  margin-top: 5px;
+  margin-top: -9px;
 }
 
 #comment-input {
@@ -630,7 +660,8 @@ margin-top: 30px;
 
   .carousel-caption {
       top: 80% !important;
-      transform: translateY(-20%);
+      -webkit-transform: translateY(-20%);
+              transform: translateY(-20%);
   }
 
   .carousel-caption p {
@@ -668,7 +699,8 @@ margin-top: 30px;
   .splash-photo {
     width: 100%;
     height: 500px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .splash-intro-text {
@@ -688,7 +720,8 @@ margin-top: 30px;
   }
   .carousel-caption {
       top: 77% !important;
-      transform: translateY(-23%);
+      -webkit-transform: translateY(-23%);
+              transform: translateY(-23%);
   }
   .submit {
     margin: 0 auto;
@@ -713,27 +746,33 @@ margin-top: 30px;
   .triangle-bio {
     padding: 20px 0;
     #tri-clinical {
-      transform: scale(0.8, 0.8);
+      -webkit-transform: scale(0.8, 0.8);
+              transform: scale(0.8, 0.8);
       top: 15px;
       left: 95px;
       &:hover {
-        transform: scale(0.9, 0.9);
+        -webkit-transform: scale(0.9, 0.9);
+                transform: scale(0.9, 0.9);
       }
     }
     #tri-education {
-      transform: scale(0.8, 0.8);
+      -webkit-transform: scale(0.8, 0.8);
+              transform: scale(0.8, 0.8);
       top: 213px;
       left: -20px;
       &:hover {
-        transform: scale(0.9, 0.9);
+        -webkit-transform: scale(0.9, 0.9);
+                transform: scale(0.9, 0.9);
       }
     }
     #tri-advocate {
-      transform: scale(0.8, 0.8);
+      -webkit-transform: scale(0.8, 0.8);
+              transform: scale(0.8, 0.8);
       top: 213px;
       left: 128px;
       &:hover {
-        transform: scale(0.9, 0.9);
+        -webkit-transform: scale(0.9, 0.9);
+                transform: scale(0.9, 0.9);
       }
     }
   }
@@ -751,7 +790,8 @@ margin-top: 30px;
   }
 
   .faq {
-   flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
    .tile1, .tile2, .tile3, .tile4 {
      width: 100%;
      height: 500px;
@@ -761,27 +801,33 @@ margin-top: 30px;
   .triangle-bio {
     height: 390px;
     #tri-clinical {
-      transform: scale(0.7, 0.7);
+      -webkit-transform: scale(0.7, 0.7);
+              transform: scale(0.7, 0.7);
       top: 20px;
       left: 95px;
       &:hover {
-        transform: scale(0.8, 0.8);
+        -webkit-transform: scale(0.8, 0.8);
+                transform: scale(0.8, 0.8);
       }
     }
     #tri-education {
-      transform: scale(0.7, 0.7);
+      -webkit-transform: scale(0.7, 0.7);
+              transform: scale(0.7, 0.7);
       top: 198px;
       left: -10px;
       &:hover {
-        transform: scale(0.8, 0.8);
+        -webkit-transform: scale(0.8, 0.8);
+                transform: scale(0.8, 0.8);
       }
     }
     #tri-advocate {
-      transform: scale(0.7, 0.7);
+      -webkit-transform: scale(0.7, 0.7);
+              transform: scale(0.7, 0.7);
       top: 198px;
       left: 115px;
       &:hover {
-        transform: scale(0.8, 0.8);
+        -webkit-transform: scale(0.8, 0.8);
+                transform: scale(0.8, 0.8);
       }
     }
   }
