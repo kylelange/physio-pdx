@@ -13,8 +13,6 @@ html {
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -100,6 +98,7 @@ input {
   margin: 0;
   padding: 0; }
 
+/* css bootstrap default nav fixes*/
 .navbar-default {
   background-color: rgba(255, 255, 255, 0.2);
   border: none; }
@@ -109,7 +108,8 @@ input {
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #16ab9f; }
+  color: #16ab9f;
+  /*background-color: transparent;*/ }
 
 .navbar-default .navbar-text {
   color: #fff; }
@@ -126,6 +126,7 @@ input {
   color: #16ab9f;
   background-color: rgba(255, 255, 255, 0.001); }
 
+/*bespoke navbar styles*/
 .navbar, .navbar-default {
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -143,6 +144,7 @@ input {
   color: #fff;
   padding: 14px;
   font-size: 1.8em;
+  -webkit-transition: all 600ms ease-in-out;
   transition: all 600ms ease-in-out;
   margin-left: 9%; }
   .navbar li:first-child {
@@ -158,6 +160,7 @@ input {
   text-align: center;
   transition: all 600ms ease-in-out; }
   .navbar a:hover, .navbar a .navbar li {
+    -webkit-transform: scale(1.2);
     transform: scale(1.2); }
 
 .navbar-nav > li > a {
@@ -187,6 +190,7 @@ input {
     transition: all 600ms ease-in-out; }
     #menu-li a:hover {
       background-color: rgba(255, 255, 255, 0.2);
+      -webkit-transform: none !important;
       transform: none !important; }
   #menu-li a:last-child {
     padding-left: 13px; }
@@ -230,14 +234,20 @@ input {
 
 .contact-photo {
   height: 450px;
+  -o-object-fit: cover;
   object-fit: cover; }
 
 .row2 {
   margin-top: 120px;
   background-color: #fff;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
   .row2 p {
     padding-bottom: 50px;
@@ -260,6 +270,7 @@ input {
   text-align: center;
   transition: all 600ms ease-in-out; }
   .services:hover {
+    -webkit-transition: all 600ms ease-in-out;
     transition: all 600ms ease-in-out;
     background: #fff; }
 
@@ -274,6 +285,7 @@ input {
 /*Photo carousel*/
 .carousel-caption {
   top: 85% !important;
+  -webkit-transform: translateY(-15%);
   transform: translateY(-15%); }
 
 .carousel-caption p {
@@ -306,9 +318,17 @@ input {
   transition: all 600ms ease-in-out; }
 
 .col-md-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 /*Submit Button*/
@@ -318,6 +338,7 @@ input {
   border-radius: 14px;
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 32px;
+  /*color: $btn-text;*/
   letter-spacing: 0.5px;
   width: 220px;
   margin-top: 30px;
@@ -332,6 +353,7 @@ input {
   text-align: center;
   padding-top: 10px; }
 
+/*about us page styling*/
 .row2-aboutUS {
   margin-top: 42px;
   background-color: #fff; }
@@ -354,6 +376,7 @@ input {
     text-align: center;
     transition: all 600ms ease-in-out; }
     .triangle-bio #tri-clinical:hover {
+      -webkit-transform: scale(1.2);
       transform: scale(1.2);
       z-index: 1; }
   .triangle-bio #tri-education {
@@ -364,6 +387,7 @@ input {
     text-align: center;
     transition: all 600ms ease-in-out; }
     .triangle-bio #tri-education:hover {
+      -webkit-transform: scale(1.2);
       transform: scale(1.2);
       z-index: 1; }
   .triangle-bio #tri-advocate {
@@ -374,6 +398,7 @@ input {
     text-align: center;
     transition: all 600ms ease-in-out; }
     .triangle-bio #tri-advocate:hover {
+      -webkit-transform: scale(1.2);
       transform: scale(1.2);
       z-index: 1; }
 
@@ -396,21 +421,31 @@ input {
 .address-text:last-of-type {
   padding-bottom: 50px; }
 
-.tile4 img {
-  max-width: 90%;
-  max-height: auto;
-  margin-left: 5%;
-  margin-top: 1%; }
+.tile4 {
+  /* background-image: url('../img/office1.jpg');*/
+  /* background-size: cover;*/
+  /* background-position: center;*/ }
+  .tile4 img {
+    max-width: 90%;
+    max-height: auto;
+    margin-left: 5%;
+    margin-top: 1%; }
 
 #facility p {
   font-size: 1em; }
 
+/* patients.html page styling*/
 .row2-patients {
   margin-top: 55px;
   background-color: #fff;
   padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
   .row2-patients p {
     padding-bottom: 50px;
@@ -421,7 +456,12 @@ input {
   width: 100%; }
 
 .faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row; }
 
 .tile1 {
@@ -508,6 +548,7 @@ input {
 .first-visit, .faq {
   width: 100%; }
 
+/*contacts styling*/
 .row1-contact h1 {
   padding-bottom: 175px; }
 
@@ -516,7 +557,7 @@ input {
   height: 75px;
   width: 220px;
   margin-right: 10%;
-  margin-top: 5px; }
+  margin-top: -9px; }
 
 #comment-input {
   width: 100%; }
@@ -564,6 +605,7 @@ input {
 
   .carousel-caption {
     top: 80% !important;
+    -webkit-transform: translateY(-20%);
     transform: translateY(-20%); }
 
   .carousel-caption p {
@@ -592,6 +634,7 @@ input {
   .splash-photo {
     width: 100%;
     height: 500px;
+    -o-object-fit: cover;
     object-fit: cover; }
 
   .splash-intro-text {
@@ -609,6 +652,7 @@ input {
 
   .carousel-caption {
     top: 77% !important;
+    -webkit-transform: translateY(-23%);
     transform: translateY(-23%); }
 
   .submit {
@@ -628,22 +672,28 @@ input {
   .triangle-bio {
     padding: 20px 0; }
     .triangle-bio #tri-clinical {
+      -webkit-transform: scale(0.8, 0.8);
       transform: scale(0.8, 0.8);
       top: 15px;
       left: 95px; }
       .triangle-bio #tri-clinical:hover {
+        -webkit-transform: scale(0.9, 0.9);
         transform: scale(0.9, 0.9); }
     .triangle-bio #tri-education {
+      -webkit-transform: scale(0.8, 0.8);
       transform: scale(0.8, 0.8);
       top: 213px;
       left: -20px; }
       .triangle-bio #tri-education:hover {
+        -webkit-transform: scale(0.9, 0.9);
         transform: scale(0.9, 0.9); }
     .triangle-bio #tri-advocate {
+      -webkit-transform: scale(0.8, 0.8);
       transform: scale(0.8, 0.8);
       top: 213px;
       left: 128px; }
       .triangle-bio #tri-advocate:hover {
+        -webkit-transform: scale(0.9, 0.9);
         transform: scale(0.9, 0.9); } }
 /*mobile*/
 @media only screen and (max-width: 767px) {
@@ -656,6 +706,7 @@ input {
     width: 100%; }
 
   .faq {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
     .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
       width: 100%;
@@ -664,22 +715,28 @@ input {
   .triangle-bio {
     height: 390px; }
     .triangle-bio #tri-clinical {
+      -webkit-transform: scale(0.7, 0.7);
       transform: scale(0.7, 0.7);
       top: 20px;
       left: 95px; }
       .triangle-bio #tri-clinical:hover {
+        -webkit-transform: scale(0.8, 0.8);
         transform: scale(0.8, 0.8); }
     .triangle-bio #tri-education {
+      -webkit-transform: scale(0.7, 0.7);
       transform: scale(0.7, 0.7);
       top: 198px;
       left: -10px; }
       .triangle-bio #tri-education:hover {
+        -webkit-transform: scale(0.8, 0.8);
         transform: scale(0.8, 0.8); }
     .triangle-bio #tri-advocate {
+      -webkit-transform: scale(0.7, 0.7);
       transform: scale(0.7, 0.7);
       top: 198px;
       left: 115px; }
       .triangle-bio #tri-advocate:hover {
+        -webkit-transform: scale(0.8, 0.8);
         transform: scale(0.8, 0.8); } }
 
 /*# sourceMappingURL=application.css.map */
