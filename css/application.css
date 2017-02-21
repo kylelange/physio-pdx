@@ -700,7 +700,10 @@ input {
   .navbar-default ul {
     background-color: #332D2D;
     margin-top: 0;
-    width: 100%;
+    margin-left: 0;
+    width: 100%; }
+
+  .navbar-right {
     z-index: 900;
     position: absolute; }
 
@@ -708,8 +711,8 @@ input {
     padding: 2px; }
 
   .splash-intro-text {
-    margin-top: 180px;
-    font-size: 38px;
+    margin-top: 350px;
+    font-size: 34px;
     position: relative; }
 
   .appointment {
