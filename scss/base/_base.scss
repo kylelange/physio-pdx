@@ -97,50 +97,47 @@ input {
 }
 
 /* css bootstrap default nav fixes*/
-.navbar-default {
+.navBDefault {
   background-color: $opacity;
   border: none;
 }
-.navbar-default .navbar-brand {
+.navBDefault .navbar-brand {
   color: $li-a-text;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navBDefault .navbar-brand:hover,
+.navBDefault .navbar-brand:focus {
   color: $hover-color;
   /*background-color: transparent;*/
 }
-.navbar-default .navbar-text {
+.navBDefault .navbar-text {
   color: $li-a-text;
 }
-.navbar-default .navbar-nav > li > a {
+.navBDefault .navbNav > li > a {
   color: $li-a-text;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navBDefault .navbNav > li > a:hover,
+.navBDefault .navbNav > li > a:focus {
   color: $hover-color;
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+.navBDefault .navbNav>.open>a, .navBDefault .navbNav>.open>a:hover, .navBDefault .navbNav>.open>a:focus {
     color: $hover-color;
     background-color: $clear;
 }
 
 /*bespoke navbar styles*/
-.navbar, .navbar-default {
+.navB, .navBDefault {
   border-radius: 0px;
   background-color: $opacity;
-  height: 80px;
   margin-top: -2px;
 }
-.navbar-default ul {
+.navBDefault ul {
   width: 100%;
-  z-index: 900;
   margin-top: -2px;
   margin-left: -15px;
-  position: absolute;
 }
-.navbar li {
+.navB li {
   color: $li-a-text;
   padding: 14px;
   font-size: 1.8em;
@@ -155,35 +152,35 @@ input {
   }
 }
 
-.navbar a {
+.navB a {
   letter-spacing: 0.4px;
   display: block;
   text-align: justify;
   text-decoration: none;
   padding: 14px 50px;
   @include hover-off($li-a-text) {};
-  &:hover, .navbar li {
+  &:hover, .navB li {
     @extend %hover-on;
     -webkit-transform: #{$scale};
             transform: #{$scale};
   }
 }
 
-.navbar-nav>li>a {
+.navbNav>li>a {
   line-height: 25px;
 }
 
-.navbar-nav>li>.dropdown-menu {
+.navbNav>li>.dropDownMenu {
     margin-top: 5px;
 }
 
-.dropdown-menu {
+.dropDownMenu {
   background-color: $opacity;
   margin-top: 3px;
   min-width: 170px;
 }
 
-.dropdown-menu .divider {
+.dropDownMenu .divider {
   height: 1px;
   overflow: hidden;
   background-color: $background-color;
@@ -469,9 +466,6 @@ margin-top: 30px;
 }
 
 .tile4 {
-  /* background-image: url('../img/office1.jpg');*/
-  /* background-size: cover;*/
-  /* background-position: center;*/
   img {
     max-width: 90%;
     max-height: auto;
@@ -629,12 +623,12 @@ margin-top: 30px;
     width: 90%;
   }
 
-  .navbar li {
+  .navB li {
     padding-left: 8px;
     margin-left: 6%;
   }
 
-  .navbar a {
+  .navB a {
     letter-spacing: 0.7px;
     padding-top: 20px;
   }
@@ -671,6 +665,7 @@ margin-top: 30px;
     height: 70px;
     width: 205px;
   }
+
   .first-visit, .faq {
     h1 {
       font-size: 3em;
@@ -688,7 +683,7 @@ margin-top: 30px;
     width: 90%;
   }
 
-  .navbar li {
+  .navB li {
     font-size: 1.05em;
     margin-left: 5%;
   }
@@ -781,26 +776,19 @@ margin-top: 30px;
     width: 100%;
   }
 
-  .navbar-default ul {
+  .navBDefault ul {
     background-color: $nav-mobile-bkgrnd;
     margin-top: 0;
     margin-left: 0;
     width: 100%;
-    // z-index: 900;
-    // position: absolute;
   }
 
-  .navbar-right {
-    z-index: 900;
-    position: absolute;
-  }
-
-  .navbar li {
+  .navB li {
     padding: 2px;
   }
 
   .splash-intro-text {
-    margin-top: 350px;
+    margin-top: 200px;
     font-size: 34px;
     position: relative;
   }
@@ -808,7 +796,7 @@ margin-top: 30px;
   .appointment {
     margin-top: 60px;
     font-size: 24px;
-    width: 295px;
+    width: 290px;
     height: 60px;
     position: relative;
   }
