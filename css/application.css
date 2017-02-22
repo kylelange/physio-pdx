@@ -136,13 +136,14 @@ input {
 
 .navB li {
   color: #fff;
-  padding: 14px;
+  padding: 25px 10px;
   font-size: 1.8em;
   -webkit-transition: all 600ms ease-in-out;
   transition: all 600ms ease-in-out;
   margin-left: 9%; }
   .navB li:first-child {
-    padding: 0; }
+    padding: 0;
+    margin-left: 0; }
 
 .navB a {
   letter-spacing: 0.4px;
@@ -175,7 +176,7 @@ input {
   padding: 0px; }
 
 #menu-li {
-  font-size: 1.5em;
+  font-size: 1.05em;
   padding: 3px 0; }
   #menu-li a {
     color: #fff;
@@ -546,8 +547,7 @@ input {
 #nav-logo {
   height: 75px;
   width: 220px;
-  margin-right: 10%;
-  margin-top: -9px; }
+  margin-right: 10%; }
 
 #comment-input {
   width: 100%; }
@@ -575,11 +575,14 @@ input {
 
   .navB li {
     padding-left: 8px;
-    margin-left: 6%; }
+    margin-left: 6%;
+    padding-top: 31px; }
+    .navB li:first-child {
+      margin-left: 2%; }
 
   .navB a {
     letter-spacing: 0.7px;
-    padding-top: 20px; }
+    font-size: 24px; }
 
   .splash-photo {
     width: 100%; }
@@ -620,6 +623,10 @@ input {
   .navB li {
     font-size: 1.05em;
     margin-left: 5%; }
+
+  .navB a {
+    letter-spacing: 0.7px;
+    font-size: 20px; }
 
   .splash-photo {
     width: 100%;

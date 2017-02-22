@@ -139,13 +139,14 @@ input {
 }
 .navB li {
   color: $li-a-text;
-  padding: 14px;
+  padding: 25px 10px;
   font-size: 1.8em;
   -webkit-transition: #{$hover};
   transition: #{$hover};
   margin-left: 9%;
   &:first-child {
     padding: 0;
+    margin-left: 0;
   }
   &:nth-child(2) {
 
@@ -188,7 +189,7 @@ input {
 }
 
 #menu-li {
-  font-size: 1.5em;
+  font-size: 1.05em;
   padding: 3px 0;
   a {
     color: $li-a-text;
@@ -589,7 +590,6 @@ margin-top: 30px;
   height: 75px;
   width: 220px;
   margin-right: 10%;
-  margin-top: -9px;
 }
 
 #comment-input {
@@ -626,11 +626,15 @@ margin-top: 30px;
   .navB li {
     padding-left: 8px;
     margin-left: 6%;
+    padding-top: 31px;
+    &:first-child {
+      margin-left: 2%;
+    }
   }
 
   .navB a {
     letter-spacing: 0.7px;
-    padding-top: 20px;
+    font-size: 24px;
   }
 
   .splash-photo {
@@ -686,6 +690,11 @@ margin-top: 30px;
   .navB li {
     font-size: 1.05em;
     margin-left: 5%;
+  }
+
+  .navB a {
+    letter-spacing: 0.7px;
+    font-size: 20px;
   }
 
   .splash-photo {
