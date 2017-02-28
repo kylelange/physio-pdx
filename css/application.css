@@ -571,7 +571,12 @@ input {
 /*smaller desktops*/
 @media only screen and (max-width: 1200px) {
   .container {
-    width: 90%; }
+    width: 93%; }
+
+  .navBDefault ul {
+    width: 108%;
+    margin-top: 0;
+    margin-left: 0; }
 
   .navB li {
     padding-left: 8px;
@@ -618,7 +623,7 @@ input {
 /*tablet*/
 @media only screen and (max-width: 991px) {
   .container {
-    width: 90%; }
+    width: 96%; }
 
   .navB li {
     font-size: 1.05em;

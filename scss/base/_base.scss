@@ -620,7 +620,13 @@ margin-top: 30px;
 /*smaller desktops*/
 @media only screen and (max-width:1200px) {
   .container {
-    width: 90%;
+    width: 93%;
+  }
+
+  .navBDefault ul {
+    width: 108%;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .navB li {
@@ -684,7 +690,7 @@ margin-top: 30px;
 /*tablet*/
 @media only screen and (max-width:991px) {
   .container {
-    width: 90%;
+    width: 96%;
   }
 
   .navB li {
