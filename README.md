@@ -4,9 +4,9 @@
 
 #### By _**Kyle Lange**_
 
-#### See it live [HERE](https://kylelange.github.io/physio-pdx/).
+#### See it live [HERE](https://www.physiopdx.com/).
 
-#### Then read the case study [HERE.](https://www.dropbox.com/s/nj1h9qlvt48gf2i/Lange-case-study-physiopdx.jpg?dl=0)
+#### Then read the case study
 
 ![screenshot](case-study-physiopdx.jpg)
 
