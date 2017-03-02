@@ -10,10 +10,6 @@
 
 ![screenshot](case-study-physiopdx.jpg)
 
-#### Here is a screenshot:
-
-![screenshot](Screen Shot.png)
-
 ## Description
 
 My client's wants on how the site should look/work were clear:
