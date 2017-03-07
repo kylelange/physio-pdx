@@ -67,7 +67,8 @@ h2 {
 
 h6 {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  color: #fff; }
 
 p {
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
@@ -459,7 +460,7 @@ input {
   background-color: #332D2D;
   height: 75vh;
   align-items: center;
-  width: 50%; }
+  width: 100%; }
   .tile1 a {
     text-decoration: none; }
   .tile1 p {
@@ -476,10 +477,10 @@ input {
     transition: all 600ms ease-in-out; }
 
 .tile2 {
-  background-color: #413939;
+  background-color: #107c73;
   height: 75vh;
   align-items: center;
-  width: 50%; }
+  width: 100%; }
   .tile2 a {
     text-decoration: none; }
   .tile2 p {
@@ -497,44 +498,8 @@ input {
   .tile2 h6 {
     color: #fff; }
 
-.tile3 {
-  background-color: #1CD6C7;
-  height: 75vh;
-  align-items: center;
-  width: 50%; }
-  .tile3 a {
-    text-decoration: none; }
-  .tile3 p {
-    color: #4A4A4A;
-    padding: 10px;
-    font-size: 1.3em; }
-  .tile3 h6 {
-    padding: 0 10px; }
-  .tile3 h1 {
-    color: #fff;
-    padding: 10px; }
-
-.tile4 {
-  background-color: #107c73;
-  height: 75vh;
-  align-items: center;
-  width: 50%; }
-  .tile4 a {
-    text-decoration: none; }
-  .tile4 p {
-    color: #4A4A4A;
-    padding: 10px;
-    font-size: 1.3em; }
-  .tile4 h6 {
-    padding: 0 10px; }
-  .tile4 h1, .tile4 a {
-    color: #fff;
-    padding: 10px; }
-  .tile4 h6 {
-    color: #fff; }
-
 .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
-  height: 500px; }
+  height: 100%; }
 
 .first-visit, .faq {
   width: 100%; }
@@ -728,7 +693,7 @@ input {
     flex-wrap: wrap; }
     .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
       width: 100%;
-      height: 500px; }
+      height: 100%; }
 
   .triangle-bio {
     height: 390px; }
