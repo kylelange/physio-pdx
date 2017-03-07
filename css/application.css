@@ -527,6 +527,9 @@ input {
   height: auto;
   margin-left: 16%; }
 
+#faqA1 {
+  display: none; }
+
 #formAnswer img {
   display: block;
   margin-left: auto;

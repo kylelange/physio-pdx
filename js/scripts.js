@@ -45,8 +45,7 @@ $(document).ready(function(){
 
 //faq DOM manip. for answers
   $("#faqQ1").click(function(){
-    $("#faqAnswer").empty();
-    $("<h6>In short, not directly. Here's how it works: each time you are seen at Physio PDX, you pay for services rendered at that time, just like you would for an acupuncture or massage visit. Then, as a courtesy to you, I directly submit what's called a 'Super Bill' to your insurance company.  Based on what kind of plan you have, the insurance company will reimburse you directly for what you have paid according to yout out-of-network benefits coverage. Any claims appeals are best handled directly by you and your insurance provider. <br><br>The point of 'cash pay' clinic design like Physio PDX, is to remove the middle man from having a say in how you recieve treatment.  Insurance companies place many restrictions on therapists, such as how many visits a patient gets, how long the visits are, and what services are deemed 'medically necessary'. Each of those aspects of care are clinical decisions, which should ideally be made by a trained medical expert, based on your medical presentation. </h6>").hide().appendTo("#faqAnswer").fadeIn(800);
+    $("#faqA1").fadeToggle();
   });
 
   $("#faqQ2").click(function(){
