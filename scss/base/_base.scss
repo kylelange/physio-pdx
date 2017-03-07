@@ -612,6 +612,17 @@ margin-top: 30px;
 #faqA1 {
   display: none;
 }
+.hidden {
+  display: none;
+}
+.faqA2 {
+  display: block;
+	opacity: 1;
+	transition: 300ms ease-in;
+}
+.fadeOut {
+	opacity: 0;
+}
 
 #formAnswer {
   img {

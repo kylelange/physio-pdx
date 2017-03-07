@@ -45,13 +45,19 @@ $(document).ready(function(){
 
 //faq DOM manip. for answers
   $("#faqQ1").click(function(){
-    $("#faqA1").fadeToggle();
+    $("#faqA1").fadeToggle(600, "swing");
   });
 
-  $("#faqQ2").click(function(){
-    $("#faqAnswer").empty();
-    $("<h6>Initial evaluations are the most expensive sessions, as they are the sessions where we learn about you, complete a thorough history and physical exam, try initial treatment, and plot out a course of care. <br><br> Initial evaluation: $180/untimed (plan for an hour of face to face time, and 15 min of billing/paperwork). <br><br> Follow-up visits: $140/ 60 min visits <br><br> Second Opinion Visits: $100 flat fee <br><br> Single Visit Evaluations: $160/ 60 min visits <br><br> Bridge to Fitness: $80/ 60 min sessions. </h6>").hide().appendTo("#faqAnswer").fadeIn(800);
+  var fadeMe = $(".faqA2");
+  $("#faqQ2").on("click", function(){
+	   fade(fadeMe[0]);
   });
+
+
+  var fade = function(e) {
+	(e.classList.contains("fadeOut"))? e.classList.remove("fadeOut") : e.classList.add("fadeOut");
+  }
+
 
   $("#faqQ3").click(function(){
     $("#faqAnswer").empty();
