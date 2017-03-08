@@ -392,6 +392,7 @@ margin-top: 30px;
 .row2-aboutUS {
   margin-top: 42px;
   background-color: $row2-bkgnd;
+  padding: 50px 0;
   &:last-child h2 {
     margin: 5%;
   }
@@ -560,6 +561,10 @@ margin-top: 30px;
   @include tile(darken($turquoise, 20%)) {};
   width: 50%;
   h1 {
+    color: $h2-text;
+    padding: 10px;
+  }
+  h6 {
     color: $h2-text;
     padding: 10px;
   }
@@ -866,6 +871,10 @@ margin-top: 30px;
      width: 100%;
      height: 100%;
    }
+  }
+
+  .tile4 {
+    display: none;
   }
 
   .triangle-bio {

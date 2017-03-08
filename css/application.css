@@ -352,7 +352,8 @@ input {
 /*about us page styling*/
 .row2-aboutUS {
   margin-top: 42px;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 50px 0; }
   .row2-aboutUS:last-child h2 {
     margin: 5%; }
   .row2-aboutUS h2 {
@@ -520,6 +521,9 @@ input {
   .tile3 h6 {
     padding: 0 10px; }
   .tile3 h1 {
+    color: #fff;
+    padding: 10px; }
+  .tile3 h6 {
     color: #fff;
     padding: 10px; }
 
@@ -753,6 +757,9 @@ input {
     .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
       width: 100%;
       height: 100%; }
+
+  .tile4 {
+    display: none; }
 
   .triangle-bio {
     height: 390px; }
