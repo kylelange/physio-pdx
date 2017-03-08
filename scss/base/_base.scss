@@ -528,6 +528,9 @@ margin-top: 30px;
         @extend %hover-on;
       }
   }
+  h6 {
+    padding: 10px;
+  }
 }
 
 .tile2 {
@@ -549,6 +552,7 @@ margin-top: 30px;
   }
   h6 {
     color: $h2-text;
+    padding: 10px;
   }
 }
 
@@ -614,6 +618,12 @@ margin-top: 30px;
   margin-left: 16%;
 }
 
+#form1 {
+  margin-top: 70px;
+}
+
+
+//Jquery styles to hide on load
 #faqA1, #faqA2, #faqA3, #faqA4, #faqA5, #faqA6 {
   display: none;
 }
@@ -622,8 +632,12 @@ margin-top: 30px;
   display: none;
 }
 
-#form1 {
-  margin-top: 70px;
+#serveA1, #serveA2, #serveA3, #serveA4, #serveA5, #serveA6, {
+  display: none;
+}
+
+#faqQ6, #faqA6, #form4, #serveQ6, #formPDF4, #serveA6 {
+  margin-bottom: 40px;
 }
 
 //CSS for JS only toggle

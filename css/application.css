@@ -475,6 +475,8 @@ input {
     color: #fff;
     text-align: center;
     transition: all 600ms ease-in-out; }
+  .tile1 h6 {
+    padding: 10px; }
 
 .tile2 {
   background-color: #107c73;
@@ -501,7 +503,8 @@ input {
     text-align: center;
     transition: all 600ms ease-in-out; }
   .tile2 h6 {
-    color: #fff; }
+    color: #fff;
+    padding: 10px; }
 
 .tile3 {
   background-color: #107c73;
@@ -568,14 +571,20 @@ input {
   height: auto;
   margin-left: 16%; }
 
+#form1 {
+  margin-top: 70px; }
+
 #faqA1, #faqA2, #faqA3, #faqA4, #faqA5, #faqA6 {
   display: none; }
 
 #formPDF1, #formPDF2, #formPDF3, #formPDF4 {
   display: none; }
 
-#form1 {
-  margin-top: 70px; }
+#serveA1, #serveA2, #serveA3, #serveA4, #serveA5, #serveA6 {
+  display: none; }
+
+#faqQ6, #faqA6, #form4, #serveQ6, #formPDF4, #serveA6 {
+  margin-bottom: 40px; }
 
 #formAnswer img {
   display: block;
