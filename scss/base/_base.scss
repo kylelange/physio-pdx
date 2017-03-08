@@ -609,20 +609,19 @@ margin-top: 30px;
   margin-left: 16%;
 }
 
-#faqA1 {
+#faqA1, #faqA2, #faqA3, #faqA4, #faqA5, #faqA6 {
   display: none;
 }
-.hidden {
-  display: none;
-}
-.faqA2 {
-  display: block;
-	opacity: 1;
-	transition: 300ms ease-in;
-}
-.fadeOut {
-	opacity: 0;
-}
+
+//CSS for JS only toggle
+// .faqA2 {
+//   display: block;
+// 	opacity: 1;
+// 	transition: 300ms ease-in;
+// }
+// .fadeOut {
+// 	opacity: 0;
+// }
 
 #formAnswer {
   img {

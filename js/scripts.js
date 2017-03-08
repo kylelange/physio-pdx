@@ -48,35 +48,35 @@ $(document).ready(function(){
     $("#faqA1").fadeToggle(600, "swing");
   });
 
-  var fadeMe = $(".faqA2");
-  $("#faqQ2").on("click", function(){
-	   fade(fadeMe[0]);
+  //toggle example w/out jquery
+  // var fadeMe = $(".faqA2");
+  // $("#faqQ2").on("click", function(){
+	//    fade(fadeMe[0]);
+  // });
+  //
+  //
+  // var fade = function(e) {
+	// (e.classList.contains("fadeOut"))? e.classList.remove("fadeOut") : e.classList.add("fadeOut");
+  // }
+
+  $("#faqQ2").click(function(){
+    $("#faqA2").fadeToggle(600, "swing");
   });
 
-
-  var fade = function(e) {
-	(e.classList.contains("fadeOut"))? e.classList.remove("fadeOut") : e.classList.add("fadeOut");
-  }
-
-
   $("#faqQ3").click(function(){
-    $("#faqAnswer").empty();
-    $("<h6>As a physical therapist, I diagnose and treat musculoskeletal conditions, most of which impair your ability to move and function in your daily life without limitations or discomfort. Our professional governing body, the <a href='https://www.moveforwardpt.com/Default.aspx' target='_blank'>American Physical Therapy Association (APTA)</a> has a wonderful resource page providing background information on common conditions any physical therapist can treat successfully. I have specific interests in all aspects of Temporomandibular Disorders (TMD, previously known as TMJ), chronic headache conditions, whiplash, and concussion injuries. I specialize in conditions of the jaw, head, and neck. I personally excel at treating persistent pain and conditions that have been non-responsive to other conservative treatment approaches. As a highly trained manual therapist, my advanced clinical reasoning and handling skills make successfully treating these complex conditions interesting and extremely rewarding. Regardless of what you are comming in with, you will be in competent hands.</h6>").hide().appendTo("#faqAnswer").fadeIn(800);
+    $("#faqA3").fadeToggle(600, "swing");
   });
 
   $("#faqQ4").click(function(){
-    $("#faqAnswer").empty();
-    $("<h6>Whether we want to admit it or not, our bodies change and shift with the natural course of time. Secondly, our bodies are incredible at sub-conscious self-preservation and adaptation to the mechanical stresses of their daily tasks and positions. Any subtle (or not so subtle) changes to our lifestyle have the potential to influence how our bodies adapt and behave. What was tried in your last PT experience may no longer be appropriate for you to try now based what factors may be playing into prolonging your painful state. At Physio Pdx we believe it crucial to work with a therapist that understands how to evaluate the current version of you, and match you to a treatment course that is both appropriate for your present condition, and practical for fitting into your daily life. We also value providing general guidelines for how things should change for you over time. If you are willing to give PT another chance, we would love the opportunity to be this therapist for you, and rekindle your faith in your ability to move without pain.</h6>").hide().appendTo("#faqAnswer").fadeIn(800);
+    $("#faqA4").fadeToggle(600, "swing");
   });
 
   $("#faqQ5").click(function(){
-    $("#faqAnswer").empty();
-    $("<h6><strong>What should I wear to treatment?</em><br><br>For the ease of evaluating how your body moves naturally, please bring or wear work out type clothing in which you feel comfortable. Occasionally, exposure of the region we are focusing on may be necessary. This will always take place only with your permission, and in the privacy of a treatment room. <br><br><em>Will I be sore after treatment?</strong><br><br>It depends. Everyone is different, and every condition presents in a unique way within the context of the individual. That said, I typically observe most people have some level of relief after our initial session together, followed by a potential increase in symptoms a few hours after the session.  Again, I stress that this is very patient dependent, and does not occur at all for some individuals. </h6>").hide().appendTo("#faqAnswer").fadeIn(800);
+    $("#faqA5").fadeToggle(600, "swing");
   });
 
   $("#faqQ6").click(function(){
-    $("#faqAnswer").empty();
-    $("<h6>The number of visits, length of each visit and how frequently they happen is always negotiable, based on your treatment needs, time constraints, and financial preference. On average, follow-up session are an hour long, and most conditions are well managed by 5-8 visits. My goal is to see you improve and become capable of maintaining your rehabilitation gains independently. If that isn’t happening, I need to reconsider whether PT is the best course of action in treating your condition, or I need to re-evaluate your condition and change our treatment approach to improve outcomes. I will not advocate for you to continue seeing me if you are not seeing or feeling significant objective progress in 3-4 sessions, max.</h6>").hide().appendTo("#faqAnswer").fadeIn(800);
+    $("#faqA6").fadeToggle(600, "swing");
   });
 
   //Bio answers
