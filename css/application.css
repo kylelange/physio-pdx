@@ -494,12 +494,49 @@ input {
   .tile2 h1 {
     position: absolute;
     left: 20px;
-    padding: 10px; }
+    padding: 10px;
+    color: #fff; }
   .tile2 p {
     color: #fff;
     text-align: center;
     transition: all 600ms ease-in-out; }
   .tile2 h6 {
+    color: #fff; }
+
+.tile3 {
+  background-color: #107c73;
+  height: 75vh;
+  align-items: center;
+  width: 50%; }
+  .tile3 a {
+    text-decoration: none; }
+  .tile3 p {
+    color: #4A4A4A;
+    padding: 10px;
+    font-size: 1.3em; }
+  .tile3 h6 {
+    padding: 0 10px; }
+  .tile3 h1 {
+    color: #fff;
+    padding: 10px; }
+
+.tile4 {
+  background-color: #107c73;
+  height: 75vh;
+  align-items: center;
+  width: 50%; }
+  .tile4 a {
+    text-decoration: none; }
+  .tile4 p {
+    color: #4A4A4A;
+    padding: 10px;
+    font-size: 1.3em; }
+  .tile4 h6 {
+    padding: 0 10px; }
+  .tile4 h1, .tile4 a {
+    color: #fff;
+    padding: 10px; }
+  .tile4 h6 {
     color: #fff; }
 
 .faq .tile1, .faq .tile2, .faq .tile3, .faq .tile4 {
