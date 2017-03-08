@@ -128,24 +128,21 @@ $(document).ready(function(){
 
   //Form link "answers"
   $("#form1").click(function(){
-    $("#formAnswer").empty();
-    $("<a href='./forms/patient-intake.pdf' target='_blank'><img src='img/intake.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("#formPDF1").fadeToggle(600, "swing");
   });
 
   $("#form2").click(function(){
-    $("#formAnswer").empty();
-    $("<a href='./forms/cancellation.pdf' target='_blank'><img src='img/cancellation.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("#formPDF2").fadeToggle(600, "swing");
   });
 
   $("#form3").click(function(){
-    $("#formAnswer").empty();
-    $("<a href='./forms/inf-consent.pdf' target='_blank'><img src='img/consent.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("#formPDF3").fadeToggle(600, "swing");
   });
 
   $("#form4").click(function(){
-    $("#formAnswer").empty();
-    $("<a href='./forms/ins-benefits.pdf' target='_blank'><img src='img/benefits.png'></img></a>").hide().appendTo("#formAnswer").fadeIn(800);
+    $("#formPDF4").fadeToggle(600, "swing");
   });
+
 });
 
 //smooth scroll function

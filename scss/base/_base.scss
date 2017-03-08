@@ -533,7 +533,11 @@ margin-top: 30px;
 .tile2 {
   @include tile(darken($turquoise, 20%), $h2-text) {};
   width: 100%;
+  display: flex;
+  flex-direction: column;
   h1 {
+    position: absolute;
+    left: 20px;
     padding: 10px;
   }
   p {
@@ -611,6 +615,14 @@ margin-top: 30px;
 
 #faqA1, #faqA2, #faqA3, #faqA4, #faqA5, #faqA6 {
   display: none;
+}
+
+#formPDF1, #formPDF2, #formPDF3, #formPDF4, {
+  display: none;
+}
+
+#form1 {
+  margin-top: 70px;
 }
 
 //CSS for JS only toggle

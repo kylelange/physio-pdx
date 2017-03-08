@@ -480,7 +480,9 @@ input {
   background-color: #107c73;
   height: 75vh;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
   .tile2 a {
     text-decoration: none; }
   .tile2 p {
@@ -490,6 +492,8 @@ input {
   .tile2 h6 {
     padding: 0 10px; }
   .tile2 h1 {
+    position: absolute;
+    left: 20px;
     padding: 10px; }
   .tile2 p {
     color: #fff;
@@ -529,6 +533,12 @@ input {
 
 #faqA1, #faqA2, #faqA3, #faqA4, #faqA5, #faqA6 {
   display: none; }
+
+#formPDF1, #formPDF2, #formPDF3, #formPDF4 {
+  display: none; }
+
+#form1 {
+  margin-top: 70px; }
 
 #formAnswer img {
   display: block;
