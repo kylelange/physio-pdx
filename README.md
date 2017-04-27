@@ -6,6 +6,8 @@
 
 #### See it live [HERE](https://www.physiopdx.com/).
 
+#### Or, look at the wireframes/ sketch files in this [dropbox folder](https://www.dropbox.com/sh/fxzujaef0zaxp3a/AAAGZM3oDb_y_cvXTb-FWqIHa?dl=0)
+
 #### Then read the case study
 
 ![screenshot](case-study-physiopdx.jpg)
